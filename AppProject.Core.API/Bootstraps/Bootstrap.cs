@@ -1,5 +1,7 @@
 using System;
+using System.Globalization;
 using System.Reflection;
+using Microsoft.AspNetCore.Localization;
 
 namespace AppProject.Core.API.Bootstraps;
 
@@ -10,6 +12,8 @@ public static class Bootstrap
         var mvcBuilder = builder.Services.AddControllers();
 
         ConfigureControllers(mvcBuilder);
+
+        ConfigureLocalization(builder, mvcBuilder);
 
         return builder;
     }
@@ -38,6 +42,26 @@ public static class Bootstrap
         }
     }
 
+    private static void ConfigureLocalization(WebApplicationBuilder builder, IMvcBuilder mvcBuilder)
+    {
+        mvcBuilder.AddDataAnnotationsLocalization();
+
+        builder.Services.AddLocalization();
+
+        builder.Services.Configure<RequestLocalizationOptions>(options =>
+        {
+            var supportedCultures = new[] { "ar-SA", "de-DE", "es-ES", "fr-FR", "it-IT", "ja-JP", "ko-KR", "pt-BR", "en-US", "ru-RU", "zh-CN" };
+            options.DefaultRequestCulture = new RequestCulture("en-US");
+            options.SupportedCultures = supportedCultures.Select(c => new CultureInfo(c)).ToList();
+            options.SupportedUICultures = supportedCultures.Select(c => new CultureInfo(c)).ToList();
+            options.RequestCultureProviders = new List<IRequestCultureProvider>
+            {
+                new QueryStringRequestCultureProvider(),
+                new CookieRequestCultureProvider(),
+                new AcceptLanguageHeaderRequestCultureProvider()
+            };
+        });
+    }
     private static IEnumerable<Assembly> GetControllerAssemblies() =>
         [
             Assembly.Load("AppProject.Core.Controllers.General"),
