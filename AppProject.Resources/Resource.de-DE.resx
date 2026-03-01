@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="accessmodifier">
+    <value>public</value>
+  </resheader>
+
+  <data name="Sample_Message_Text" xml:space="preserve">
+    <value>Beispiel</value>
+  </data>
+  <data name="SampleEmailTemplate_Introduction_Message" xml:space="preserve">
+    <value>Hallo, {0}!</value>
+  </data>
+  <data name="SampleEmailTemplate_Body_Message" xml:space="preserve">
+    <value>Dies ist eine Beispielnachricht für Sie.</value>
+  </data>
+  <data name="SampleEmailTemplate_Date_Message" xml:space="preserve">
+    <value>Sendedatum: {0}</value>
+  </data>
+
+  <data name="General_Country_DuplicateName" xml:space="preserve">
+    <value>Dieser Ländername existiert bereits.</value>
+  </data>
+  <data name="General_State_DuplicateName" xml:space="preserve">
+    <value>Dieser Bundeslandname existiert bereits für dasselbe Land.</value>
+  </data>
+  <data name="General_City_DuplicateName" xml:space="preserve">
+    <value>Dieser Stadtname existiert bereits für dasselbe Bundesland.</value>
+  </data>
+  <data name="General_City_Neighborhood_DuplicateName" xml:space="preserve">
+    <value>Dieser Stadtteilname existiert bereits für dieselbe Stadt.</value>
+  </data>
+  <data name="Inventory_Product_DuplicateName" xml:space="preserve">
+    <value>Ein Produkt mit demselben Namen existiert bereits.</value>
+  </data>
+  <data name="Inventory_Product_DuplicateCode" xml:space="preserve">
+    <value>Ein Produkt mit demselben Code existiert bereits.</value>
+  </data>
+  <data name="Inventory_Product_ContainsStockMovements" xml:space="preserve">
+    <value>Das Produkt hat Lagerbewegungen und kann nicht gelöscht werden.</value>
+  </data>
+  <data name="Inventory_StockMovement_InvalidQuantity" xml:space="preserve">
+    <value>Die Menge muss größer als null sein.</value>
+  </data>
+  <data name="Inventory_StockMovement_ProductNotFound" xml:space="preserve">
+    <value>Produkt nicht gefunden.</value>
+  </data>
+  <data name="Inventory_StockMovement_InsufficientStock" xml:space="preserve">
+    <value>Unzureichender Bestand für diese Bewegung.</value>
+  </data>
+
+  <data name="Footer_Text" xml:space="preserve">
+    <value>Copyright © Ihr Firmenname. Alle Rechte vorbehalten.</value>
+  </data>
+  <data name="Home_Title" xml:space="preserve">
+    <value>Startseite</value>
+  </data>
+  <data name="Home_Message" xml:space="preserve">
+    <value>Willkommen in Ihrer neuen App!</value>
+  </data>
+  <data name="NotAuthorized_Title" xml:space="preserve">
+    <value>Nicht autorisiert</value>
+  </data>
+  <data name="NotAuthorized_Message" xml:space="preserve">
+    <value>Entschuldigung, Sie sind nicht angemeldet.</value>
+  </data>
+  <data name="NotFound_Title" xml:space="preserve">
+    <value>Nicht gefunden</value>
+  </data>
+  <data name="NotFound_Message" xml:space="preserve">
+    <value>Entschuldigung, unter dieser Adresse gibt es nichts.</value>
+  </data>
+
+  <data name="Login_Button_Text" xml:space="preserve">
+    <value>Anmelden</value>
+  </data>
+  <data name="Logout_Button_Text" xml:space="preserve">
+    <value>Abmelden</value>
+  </data>
+
+  <data name="Dialog_Error_Title" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="Dialog_Error_OkButton_Text" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="Dialog_Info_Title" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="Dialog_Info_OkButton_Text" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="Dialog_Confirm_Title" xml:space="preserve">
+    <value>Bestätigung</value>
+  </data>
+  <data name="Dialog_Confirm_YesButton_Text" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="Dialog_Confirm_NoButton_Text" xml:space="preserve">
+    <value>Nein</value>
+  </data>
+  <data name="Dialog_Confirm_Delete_Message" xml:space="preserve">
+    <value>Sind Sie sicher, dass Sie löschen möchten?</value>
+  </data>
+  <data name="Dialog_Busy_Message" xml:space="preserve">
+    <value>In Bearbeitung...</value>
+  </data>
+
+  <data name="Exception_AdditionalInfo_Message" xml:space="preserve">
+    <value>Zusätzliche Details: {0}</value>
+  </data>
+  <data name="Exception_UnhandledException_Message" xml:space="preserve">
+    <value>Unbehandelte Ausnahme.</value>
+  </data>
+
+  <data name="DataGridControl_NewButton_Text" xml:space="preserve">
+    <value>Neu</value>
+  </data>
+  <data name="DataGridControl_AddButton_Text" xml:space="preserve">
+    <value>Hinzufügen</value>
+  </data>
+  <data name="DataGridControl_EditButton_Text" xml:space="preserve">
+    <value>Bearbeiten</value>
+  </data>
+  <data name="DataGridControl_OpenButton_Text" xml:space="preserve">
+    <value>Öffnen</value>
+  </data>
+  <data name="DataGridControl_DeleteButton_Text" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+
+  <data name="SearchControl_SearchField_Label" xml:space="preserve">
+    <value>Suchen</value>
+  </data>
+  <data name="SearchControl_SearchButton_Text" xml:space="preserve">
+    <value>Suchen</value>
+  </data>
+  <data name="SearchControl_TakeField_Label" xml:space="preserve">
+    <value>Anzahl</value>
+  </data>
+  <data name="SearchControl_TakeField_Info_Message" xml:space="preserve">
+    <value>Es wurden nur {0} Ergebnisse angezeigt. Um mehr zu sehen, ändern Sie das Feld Anzahl.</value>
+  </data>
+  <data name="SearchControl_AdvancedFiltersButton_Text" xml:space="preserve">
+    <value>Erweiterte Filter</value>
+  </data>
+
+  <data name="ModelFormControl_SaveButton_Text" xml:space="preserve">
+    <value>Speichern</value>
+  </data>
+  <data name="ModelFormControl_ExecuteButton_Text" xml:space="preserve">
+    <value>Ausführen</value>
+  </data>
+  <data name="ModelFormControl_CancelButton_Text" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="ModelFormControl_CloseButton_Text" xml:space="preserve">
+    <value>Schließen</value>
+  </data>
+
+  <data name="RadzenFieldset_Collapse_Title" xml:space="preserve">
+    <value>Zuklappen</value>
+  </data>
+  <data name="RadzenFieldset_Expand_Title" xml:space="preserve">
+    <value>Aufklappen</value>
+  </data>
+  <data name="RadzenDataGrid_Empty_Text" xml:space="preserve">
+    <value>Keine Datensätze zum Anzeigen.</value>
+  </data>
+  <data name="RadzenDataGrid_GroupPanel_Text" xml:space="preserve">
+    <value>Ziehen Sie eine Spaltenüberschrift hierher und legen Sie sie ab, um nach dieser Spalte zu gruppieren</value>
+  </data>
+  <data name="RadzenDataGrid_PageSize_Text" xml:space="preserve">
+    <value>Elemente pro Seite</value>
+  </data>
+  <data name="RadzenDataGrid_Filter_Text" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="RadzenDataGrid_Equals_Text" xml:space="preserve">
+    <value>Ist gleich</value>
+  </data>
+  <data name="RadzenDataGrid_NotEquals_Text" xml:space="preserve">
+    <value>Ist nicht gleich</value>
+  </data>
+  <data name="RadzenDataGrid_Contains_Text" xml:space="preserve">
+    <value>Enthält</value>
+  </data>
+  <data name="RadzenDataGrid_StartsWith_Text" xml:space="preserve">
+    <value>Beginnt mit</value>
+  </data>
+  <data name="RadzenDataGrid_EndsWith_Text" xml:space="preserve">
+    <value>Endet mit</value>
+  </data>
+  <data name="RadzenDataGrid_DoesNotContain_Text" xml:space="preserve">
+    <value>Enthält nicht</value>
+  </data>
+  <data name="RadzenDataGrid_IsNull_Text" xml:space="preserve">
+    <value>Ist null</value>
+  </data>
+  <data name="RadzenDataGrid_IsEmpty_Text" xml:space="preserve">
+    <value>Ist leer</value>
+  </data>
+  <data name="RadzenDataGrid_IsNotNull_Text" xml:space="preserve">
+    <value>Ist nicht null</value>
+  </data>
+  <data name="RadzenDataGrid_IsNotEmpty_Text" xml:space="preserve">
+    <value>Ist nicht leer</value>
+  </data>
+  <data name="RadzenDataGrid_ClearFilter_Text" xml:space="preserve">
+    <value>Filter löschen</value>
+  </data>
+  <data name="RadzenDataGrid_ApplyFilter_Text" xml:space="preserve">
+    <value>Filter anwenden</value>
+  </data>
+  <data name="RadzenDataGrid_AndOperator_Text" xml:space="preserve">
+    <value>Und</value>
+  </data>
+  <data name="RadzenDataGrid_OrOperator_Text" xml:space="preserve">
+    <value>Oder</value>
+  </data>
+  <data name="RadzenDataGrid_NextPage_Title" xml:space="preserve">
+    <value>Nächste Seite</value>
+  </data>
+  <data name="RadzenDataGrid_LastPage_Title" xml:space="preserve">
+    <value>Letzte Seite</value>
+  </data>
+  <data name="RadzenDataGrid_PreviousPage_Title" xml:space="preserve">
+    <value>Vorherige Seite</value>
+  </data>
+  <data name="RadzenDataGrid_FirstPage_Title" xml:space="preserve">
+    <value>Erste Seite</value>
+  </data>
+  <data name="RadzenDataGrid_Page_TitleFormat" xml:space="preserve">
+    <value>Seite {{0}}</value>
+  </data>
+  <data name="RadzenDropDownDataGrid_EmptyText" xml:space="preserve" xml:lang="de-DE">
+    <value>Keine Datensätze gefunden.</value>
+  </data>
+  <data name="RadzenDropDownDataGrid_SearchTextPlaceholder" xml:space="preserve" xml:lang="de-DE">
+    <value>Suchen...</value>
+  </data>
+
+  <data name="Menu_Home_Item_Text" xml:space="preserve">
+    <value>Startseite</value>
+  </data>
+  <data name="Menu_Countries_Item_Text" xml:space="preserve">
+    <value>Länder</value>
+  </data>
+  <data name="Menu_States_Item_Text" xml:space="preserve">
+    <value>Bundesländer</value>
+  </data>
+  <data name="Menu_Cities_Item_Text" xml:space="preserve">
+    <value>Städte</value>
+  </data>
+  <data name="Menu_Products_Item_Text" xml:space="preserve">
+    <value>Produkte</value>
+  </data>
+  <data name="Menu_StockMovements_Item_Text" xml:space="preserve">
+    <value>Lagerbewegungen</value>
+  </data>
+
+  <data name="General_CountrySummaryPage_Title" xml:space="preserve">
+    <value>Länder</value>
+  </data>
+  <data name="General_CountrySummaryPage_NameColumn_Title" xml:space="preserve">
+    <value>Name</value>
+  </data>
+
+  <data name="General_CountryFormPage_Title" xml:space="preserve">
+    <value>Land</value>
+  </data>
+  <data name="General_CountryFormPage_GeneralFieldset_Title" xml:space="preserve">
+    <value>Allgemein</value>
+  </data>
+  <data name="General_CountryFormPage_GeneralFieldset_IdField_Text" xml:space="preserve">
+    <value>Id: {0}</value>
+  </data>
+  <data name="General_CountryFormPage_GeneralFieldset_NameField_Label" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="General_CountryFormPage_GeneralFieldset_NameField_Required" xml:space="preserve">
+    <value>Name ist erforderlich</value>
+  </data>
+  <data name="General_CountryFormPage_GeneralFieldset_NameField_InvalidLength" xml:space="preserve">
+    <value>Max. Länge: 200</value>
+  </data>
+  <data name="General_CountryFormPage_GeneralFieldset_CodeField_Label" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="General_CountryFormPage_GeneralFieldset_CodeField_InvalidLength" xml:space="preserve">
+    <value>Max. Länge: 200</value>
+  </data>
+
+  <data name="General_CountrySummaryDropDownDataGridControl_NameColumn_Title" xml:space="preserve">
+    <value>Name</value>
+  </data>
+
+  <data name="General_StateSummaryPage_Title" xml:space="preserve">
+    <value>Bundesländer</value>
+  </data>
+  <data name="General_StateSummaryPage_FilterContent_CountryField_Label" xml:space="preserve">
+    <value>Land</value>
+  </data>
+  <data name="General_StateSummaryPage_NameColumn_Title" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="General_StateSummaryPage_CountryNameColumn_Title" xml:space="preserve">
+    <value>Land</value>
+  </data>
+
+  <data name="General_StateFormPage_Title" xml:space="preserve">
+    <value>Bundesland</value>
+  </data>
+  <data name="General_StateFormPage_GeneralFieldset_Title" xml:space="preserve">
+    <value>Allgemein</value>
+  </data>
+  <data name="General_StateFormPage_GeneralFieldset_IdField_Text" xml:space="preserve">
+    <value>Id: {0}</value>
+  </data>
+  <data name="General_StateFormPage_GeneralFieldset_NameField_Label" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="General_StateFormPage_GeneralFieldset_NameField_Required" xml:space="preserve">
+    <value>Name ist erforderlich</value>
+  </data>
+  <data name="General_StateFormPage_GeneralFieldset_NameField_InvalidLength" xml:space="preserve">
+    <value>Max. Länge: 200</value>
+  </data>
+  <data name="General_StateFormPage_GeneralFieldset_CodeField_Label" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="General_StateFormPage_GeneralFieldset_CodeField_InvalidLength" xml:space="preserve">
+    <value>Max. Länge: 200</value>
+  </data>
+  <data name="General_StateFormPage_GeneralFieldset_CountryField_Label" xml:space="preserve">
+    <value>Land</value>
+  </data>
+  <data name="General_StateFormPage_GeneralFieldset_CountryField_Required" xml:space="preserve">
+    <value>Land ist erforderlich</value>
+  </data>
+
+  <data name="General_StateSummaryDropDownDataGridControl_NameColumn_Title" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="General_StateSummaryDropDownDataGridControl_CountryNameColumn_Title" xml:space="preserve">
+    <value>Land</value>
+  </data>
+
+  <data name="General_CitySummaryPage_Title" xml:space="preserve">
+    <value>Städte</value>
+  </data>
+  <data name="General_CitySummaryPage_FilterContent_StateField_Label" xml:space="preserve">
+    <value>Bundesland</value>
+  </data>
+  <data name="General_CitySummaryPage_NameColumn_Title" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="General_CitySummaryPage_StateNameColumn_Title" xml:space="preserve">
+    <value>Bundesland</value>
+  </data>
+  <data name="General_CitySummaryPage_CountryNameColumn_Title" xml:space="preserve">
+    <value>Land</value>
+  </data>
+
+  <data name="General_CityFormPage_Title" xml:space="preserve">
+    <value>Stadt</value>
+  </data>
+  <data name="General_CityFormPage_GeneralFieldset_Title" xml:space="preserve">
+    <value>Allgemein</value>
+  </data>
+  <data name="General_CityFormPage_GeneralFieldset_IdField_Text" xml:space="preserve">
+    <value>Id: {0}</value>
+  </data>
+  <data name="General_CityFormPage_GeneralFieldset_NameField_Label" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="General_CityFormPage_GeneralFieldset_NameField_Required" xml:space="preserve">
+    <value>Name ist erforderlich</value>
+  </data>
+  <data name="General_CityFormPage_GeneralFieldset_NameField_InvalidLength" xml:space="preserve">
+    <value>Max. Länge: 200</value>
+  </data>
+  <data name="General_CityFormPage_GeneralFieldset_CodeField_Label" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="General_CityFormPage_GeneralFieldset_CodeField_InvalidLength" xml:space="preserve">
+    <value>Max. Länge: 200</value>
+  </data>
+  <data name="General_CityFormPage_GeneralFieldset_StateField_Label" xml:space="preserve">
+    <value>Bundesland</value>
+  </data>
+  <data name="General_CityFormPage_GeneralFieldset_StateField_Required" xml:space="preserve">
+    <value>Bundesland ist erforderlich</value>
+  </data>
+  <data name="General_CityFormPage_NeighborhoodFieldset_Title" xml:space="preserve">
+    <value>Stadtteile</value>
+  </data>
+  <data name="General_CityFormPage_NeighborhoodFieldset_NameColumn_Title" xml:space="preserve">
+    <value>Name</value>
+  </data>
+
+  <data name="General_NeighborhoodFormPage_Title" xml:space="preserve">
+    <value>Stadtteil</value>
+  </data>
+  <data name="General_NeighborhoodFormPage_GeneralFieldset_Title" xml:space="preserve">
+    <value>Allgemein</value>
+  </data>
+  <data name="General_NeighborhoodFormPage_GeneralFieldset_IdField_Text" xml:space="preserve">
+    <value>Id: {0}</value>
+  </data>
+  <data name="General_NeighborhoodFormPage_GeneralFieldset_NameField_Label" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="General_NeighborhoodFormPage_GeneralFieldset_NameField_Required" xml:space="preserve">
+    <value>Name ist erforderlich</value>
+  </data>
+  <data name="General_NeighborhoodFormPage_GeneralFieldset_NameField_InvalidLength" xml:space="preserve">
+    <value>Max. Länge: 200</value>
+  </data>
+  <data name="General_NeighborhoodFormPage_GeneralFieldset_CodeField_Label" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="General_NeighborhoodFormPage_GeneralFieldset_CodeField_InvalidLength" xml:space="preserve">
+    <value>Max. Länge: 200</value>
+  </data>
+
+  <data name="Inventory_ProductSummaryPage_Title" xml:space="preserve">
+    <value>Produkte</value>
+  </data>
+  <data name="Inventory_ProductSummaryPage_NameColumn_Title" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Inventory_ProductSummaryPage_CodeColumn_Title" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="Inventory_ProductSummaryPage_MinimumQuantityColumn_Title" xml:space="preserve">
+    <value>Mindestbestand</value>
+  </data>
+
+  <data name="Inventory_ProductFormPage_Title" xml:space="preserve">
+    <value>Produkt</value>
+  </data>
+  <data name="Inventory_ProductFormPage_GeneralFieldset_Title" xml:space="preserve">
+    <value>Allgemein</value>
+  </data>
+  <data name="Inventory_ProductFormPage_GeneralFieldset_IdField_Text" xml:space="preserve">
+    <value>Id: {0}</value>
+  </data>
+  <data name="Inventory_ProductFormPage_GeneralFieldset_NameField_Label" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Inventory_ProductFormPage_GeneralFieldset_NameField_Required" xml:space="preserve">
+    <value>Geben Sie den Namen ein.</value>
+  </data>
+  <data name="Inventory_ProductFormPage_GeneralFieldset_NameField_InvalidLength" xml:space="preserve">
+    <value>Der Name darf maximal 200 Zeichen lang sein.</value>
+  </data>
+  <data name="Inventory_ProductFormPage_GeneralFieldset_CodeField_Label" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="Inventory_ProductFormPage_GeneralFieldset_CodeField_InvalidLength" xml:space="preserve">
+    <value>Der Code darf maximal 200 Zeichen lang sein.</value>
+  </data>
+  <data name="Inventory_ProductFormPage_GeneralFieldset_MinimumQuantityField_Label" xml:space="preserve">
+    <value>Mindestbestand</value>
+  </data>
+  <data name="Inventory_ProductFormPage_GeneralFieldset_MinimumQuantityField_InvalidValue" xml:space="preserve">
+    <value>Der Mindestbestand muss größer oder gleich null sein.</value>
+  </data>
+
+  <data name="Inventory_ProductSummaryDropDownDataGridControl_NameColumn_Title" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Inventory_ProductSummaryDropDownDataGridControl_CodeColumn_Title" xml:space="preserve">
+    <value>Code</value>
+  </data>
+
+  <data name="Inventory_StockMovementSummaryPage_Title" xml:space="preserve">
+    <value>Lagerbewegungen</value>
+  </data>
+  <data name="Inventory_StockMovementSummaryPage_FilterContent_ProductField_Label" xml:space="preserve">
+    <value>Produkt</value>
+  </data>
+  <data name="Inventory_StockMovementSummaryPage_ProductColumn_Title" xml:space="preserve">
+    <value>Produkt</value>
+  </data>
+  <data name="Inventory_StockMovementSummaryPage_QuantityColumn_Title" xml:space="preserve">
+    <value>Menge</value>
+  </data>
+  <data name="Inventory_StockMovementSummaryPage_MovementDateColumn_Title" xml:space="preserve">
+    <value>Bewegungsdatum</value>
+  </data>
+  <data name="Inventory_StockMovementSummaryPage_IsOutboundColumn_Title" xml:space="preserve">
+    <value>Richtung</value>
+  </data>
+  <data name="Inventory_StockMovementSummaryPage_IsOutboundColumn_Outbound_Text" xml:space="preserve">
+    <value>Ausgang</value>
+  </data>
+  <data name="Inventory_StockMovementSummaryPage_IsOutboundColumn_Inbound_Text" xml:space="preserve">
+    <value>Eingang</value>
+  </data>
+
+  <data name="Inventory_StockMovementFormPage_Title" xml:space="preserve">
+    <value>Lagerbewegung</value>
+  </data>
+  <data name="Inventory_StockMovementFormPage_GeneralFieldset_Title" xml:space="preserve">
+    <value>Allgemein</value>
+  </data>
+  <data name="Inventory_StockMovementFormPage_GeneralFieldset_IdField_Text" xml:space="preserve">
+    <value>Id: {0}</value>
+  </data>
+  <data name="Inventory_StockMovementFormPage_GeneralFieldset_ProductField_Label" xml:space="preserve">
+    <value>Produkt</value>
+  </data>
+  <data name="Inventory_StockMovementFormPage_GeneralFieldset_ProductField_Required" xml:space="preserve">
+    <value>Wählen Sie ein Produkt aus.</value>
+  </data>
+  <data name="Inventory_StockMovementFormPage_GeneralFieldset_QuantityField_Label" xml:space="preserve">
+    <value>Menge</value>
+  </data>
+  <data name="Inventory_StockMovementFormPage_GeneralFieldset_QuantityField_InvalidValue" xml:space="preserve">
+    <value>Die Menge muss größer als null sein.</value>
+  </data>
+  <data name="Inventory_StockMovementFormPage_GeneralFieldset_MovementDateField_Label" xml:space="preserve">
+    <value>Bewegungsdatum</value>
+  </data>
+  <data name="Inventory_StockMovementFormPage_GeneralFieldset_MovementDateField_Required" xml:space="preserve">
+    <value>Wählen Sie das Bewegungsdatum aus.</value>
+  </data>
+  <data name="Inventory_StockMovementFormPage_GeneralFieldset_IsOutboundField_Label" xml:space="preserve">
+    <value>Ist Ausgang</value>
+  </data>
+
+  <data name="Inventory_LowStockEmail_Subject" xml:space="preserve">
+    <value>Warnung: Niedriger Lagerbestand</value>
+  </data>
+  <data name="Inventory_LowStockEmail_Intro" xml:space="preserve">
+    <value>Die folgenden Produkte liegen unter dem Mindestbestand:</value>
+  </data>
+  <data name="Inventory_LowStockEmail_ItemFormat" xml:space="preserve">
+    <value>{0}: Bestand {1}, Minimum {2}</value>
+  </data>
+  <data name="Inventory_LowStockEmail_Closing" xml:space="preserve">
+    <value>Bitte füllen Sie diese so schnell wie möglich auf.</value>
+  </data>
+</root>

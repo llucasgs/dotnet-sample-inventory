@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="accessmodifier">
+    <value>public</value>
+  </resheader>
+
+  <data name="Sample_Message_Text" xml:space="preserve">
+    <value>샘플</value>
+  </data>
+  <data name="SampleEmailTemplate_Introduction_Message" xml:space="preserve">
+    <value>안녕하세요, {0}님!</value>
+  </data>
+  <data name="SampleEmailTemplate_Body_Message" xml:space="preserve">
+    <value>귀하를 위한 샘플 메시지입니다.</value>
+  </data>
+  <data name="SampleEmailTemplate_Date_Message" xml:space="preserve">
+    <value>보낸 날짜: {0}</value>
+  </data>
+
+  <data name="General_Country_DuplicateName" xml:space="preserve">
+    <value>이 국가 이름은 이미 존재합니다.</value>
+  </data>
+  <data name="General_State_DuplicateName" xml:space="preserve">
+    <value>동일한 국가에 이 시/도 이름이 이미 존재합니다.</value>
+  </data>
+  <data name="General_City_DuplicateName" xml:space="preserve">
+    <value>동일한 시/도에 이 도시 이름이 이미 존재합니다.</value>
+  </data>
+  <data name="General_City_Neighborhood_DuplicateName" xml:space="preserve">
+    <value>동일한 도시에 이 동네 이름이 이미 존재합니다.</value>
+  </data>
+  <data name="Inventory_Product_DuplicateName" xml:space="preserve">
+    <value>같은 이름의 제품이 이미 존재합니다.</value>
+  </data>
+  <data name="Inventory_Product_DuplicateCode" xml:space="preserve">
+    <value>같은 코드의 제품이 이미 존재합니다.</value>
+  </data>
+  <data name="Inventory_Product_ContainsStockMovements" xml:space="preserve">
+    <value>해당 제품은 재고 이동 기록이 있어 삭제할 수 없습니다.</value>
+  </data>
+  <data name="Inventory_StockMovement_InvalidQuantity" xml:space="preserve">
+    <value>수량은 0보다 커야 합니다.</value>
+  </data>
+  <data name="Inventory_StockMovement_ProductNotFound" xml:space="preserve">
+    <value>제품을 찾을 수 없습니다.</value>
+  </data>
+  <data name="Inventory_StockMovement_InsufficientStock" xml:space="preserve">
+    <value>이 이동을 위한 재고가 부족합니다.</value>
+  </data>
+
+  <data name="Footer_Text" xml:space="preserve">
+    <value>Copyright © 귀사 이름. 모든 권리 보유.</value>
+  </data>
+  <data name="Home_Title" xml:space="preserve">
+    <value>홈</value>
+  </data>
+  <data name="Home_Message" xml:space="preserve">
+    <value>새 앱에 오신 것을 환영합니다!</value>
+  </data>
+  <data name="NotAuthorized_Title" xml:space="preserve">
+    <value>권한 없음</value>
+  </data>
+  <data name="NotAuthorized_Message" xml:space="preserve">
+    <value>죄송합니다. 로그인하지 않았습니다.</value>
+  </data>
+  <data name="NotFound_Title" xml:space="preserve">
+    <value>찾을 수 없음</value>
+  </data>
+  <data name="NotFound_Message" xml:space="preserve">
+    <value>죄송합니다. 이 주소에는 아무것도 없습니다.</value>
+  </data>
+
+  <data name="Login_Button_Text" xml:space="preserve">
+    <value>로그인</value>
+  </data>
+  <data name="Logout_Button_Text" xml:space="preserve">
+    <value>로그아웃</value>
+  </data>
+
+  <data name="Dialog_Error_Title" xml:space="preserve">
+    <value>오류</value>
+  </data>
+  <data name="Dialog_Error_OkButton_Text" xml:space="preserve">
+    <value>확인</value>
+  </data>
+  <data name="Dialog_Info_Title" xml:space="preserve">
+    <value>정보</value>
+  </data>
+  <data name="Dialog_Info_OkButton_Text" xml:space="preserve">
+    <value>확인</value>
+  </data>
+  <data name="Dialog_Confirm_Title" xml:space="preserve">
+    <value>확인</value>
+  </data>
+  <data name="Dialog_Confirm_YesButton_Text" xml:space="preserve">
+    <value>예</value>
+  </data>
+  <data name="Dialog_Confirm_NoButton_Text" xml:space="preserve">
+    <value>아니요</value>
+  </data>
+  <data name="Dialog_Confirm_Delete_Message" xml:space="preserve">
+    <value>정말 삭제하시겠습니까?</value>
+  </data>
+  <data name="Dialog_Busy_Message" xml:space="preserve">
+    <value>처리 중...</value>
+  </data>
+
+  <data name="Exception_AdditionalInfo_Message" xml:space="preserve">
+    <value>추가 정보: {0}</value>
+  </data>
+  <data name="Exception_UnhandledException_Message" xml:space="preserve">
+    <value>처리되지 않은 예외가 발생했습니다.</value>
+  </data>
+
+  <data name="DataGridControl_NewButton_Text" xml:space="preserve">
+    <value>새로 만들기</value>
+  </data>
+  <data name="DataGridControl_AddButton_Text" xml:space="preserve">
+    <value>추가</value>
+  </data>
+  <data name="DataGridControl_EditButton_Text" xml:space="preserve">
+    <value>편집</value>
+  </data>
+  <data name="DataGridControl_OpenButton_Text" xml:space="preserve">
+    <value>열기</value>
+  </data>
+  <data name="DataGridControl_DeleteButton_Text" xml:space="preserve">
+    <value>삭제</value>
+  </data>
+
+  <data name="SearchControl_SearchField_Label" xml:space="preserve">
+    <value>검색</value>
+  </data>
+  <data name="SearchControl_SearchButton_Text" xml:space="preserve">
+    <value>검색</value>
+  </data>
+  <data name="SearchControl_TakeField_Label" xml:space="preserve">
+    <value>가져오기</value>
+  </data>
+  <data name="SearchControl_TakeField_Info_Message" xml:space="preserve">
+    <value>{0}개의 결과만 표시되었습니다. 더 많은 결과를 보려면 가져오기 필드를 변경하세요.</value>
+  </data>
+  <data name="SearchControl_AdvancedFiltersButton_Text" xml:space="preserve">
+    <value>고급 필터</value>
+  </data>
+
+  <data name="ModelFormControl_SaveButton_Text" xml:space="preserve">
+    <value>저장</value>
+  </data>
+  <data name="ModelFormControl_ExecuteButton_Text" xml:space="preserve">
+    <value>실행</value>
+  </data>
+  <data name="ModelFormControl_CancelButton_Text" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="ModelFormControl_CloseButton_Text" xml:space="preserve">
+    <value>닫기</value>
+  </data>
+
+  <data name="RadzenFieldset_Collapse_Title" xml:space="preserve">
+    <value>축소</value>
+  </data>
+  <data name="RadzenFieldset_Expand_Title" xml:space="preserve">
+    <value>확장</value>
+  </data>
+  <data name="RadzenDataGrid_Empty_Text" xml:space="preserve">
+    <value>표시할 레코드가 없습니다.</value>
+  </data>
+  <data name="RadzenDataGrid_GroupPanel_Text" xml:space="preserve">
+    <value>해당 열로 그룹화하려면 열 머리글을 여기로 드래그 앤 드롭하세요.</value>
+  </data>
+  <data name="RadzenDataGrid_PageSize_Text" xml:space="preserve">
+    <value>페이지당 항목 수</value>
+  </data>
+  <data name="RadzenDataGrid_Filter_Text" xml:space="preserve">
+    <value>필터</value>
+  </data>
+  <data name="RadzenDataGrid_Equals_Text" xml:space="preserve">
+    <value>같음</value>
+  </data>
+  <data name="RadzenDataGrid_NotEquals_Text" xml:space="preserve">
+    <value>같지 않음</value>
+  </data>
+  <data name="RadzenDataGrid_Contains_Text" xml:space="preserve">
+    <value>포함</value>
+  </data>
+  <data name="RadzenDataGrid_StartsWith_Text" xml:space="preserve">
+    <value>시작 문자</value>
+  </data>
+  <data name="RadzenDataGrid_EndsWith_Text" xml:space="preserve">
+    <value>끝 문자</value>
+  </data>
+  <data name="RadzenDataGrid_DoesNotContain_Text" xml:space="preserve">
+    <value>포함하지 않음</value>
+  </data>
+  <data name="RadzenDataGrid_IsNull_Text" xml:space="preserve">
+    <value>Null임</value>
+  </data>
+  <data name="RadzenDataGrid_IsEmpty_Text" xml:space="preserve">
+    <value>비어 있음</value>
+  </data>
+  <data name="RadzenDataGrid_IsNotNull_Text" xml:space="preserve">
+    <value>Null이 아님</value>
+  </data>
+  <data name="RadzenDataGrid_IsNotEmpty_Text" xml:space="preserve">
+    <value>비어 있지 않음</value>
+  </data>
+  <data name="RadzenDataGrid_ClearFilter_Text" xml:space="preserve">
+    <value>필터 지우기</value>
+  </data>
+  <data name="RadzenDataGrid_ApplyFilter_Text" xml:space="preserve">
+    <value>필터 적용</value>
+  </data>
+  <data name="RadzenDataGrid_AndOperator_Text" xml:space="preserve">
+    <value>그리고 (And)</value>
+  </data>
+  <data name="RadzenDataGrid_OrOperator_Text" xml:space="preserve">
+    <value>또는 (Or)</value>
+  </data>
+  <data name="RadzenDataGrid_NextPage_Title" xml:space="preserve">
+    <value>다음 페이지</value>
+  </data>
+  <data name="RadzenDataGrid_LastPage_Title" xml:space="preserve">
+    <value>마지막 페이지</value>
+  </data>
+  <data name="RadzenDataGrid_PreviousPage_Title" xml:space="preserve">
+    <value>이전 페이지</value>
+  </data>
+  <data name="RadzenDataGrid_FirstPage_Title" xml:space="preserve">
+    <value>첫 페이지</value>
+  </data>
+  <data name="RadzenDataGrid_Page_TitleFormat" xml:space="preserve">
+    <value>페이지 {{0}}</value>
+  </data>
+  <data name="RadzenDropDownDataGrid_EmptyText" xml:space="preserve" xml:lang="ko-KR">
+    <value>레코드를 찾을 수 없습니다.</value>
+  </data>
+  <data name="RadzenDropDownDataGrid_SearchTextPlaceholder" xml:space="preserve" xml:lang="ko-KR">
+    <value>검색...</value>
+  </data>
+
+  <data name="Menu_Home_Item_Text" xml:space="preserve">
+    <value>홈</value>
+  </data>
+  <data name="Menu_Countries_Item_Text" xml:space="preserve">
+    <value>국가</value>
+  </data>
+  <data name="Menu_States_Item_Text" xml:space="preserve">
+    <value>시/도</value>
+  </data>
+  <data name="Menu_Cities_Item_Text" xml:space="preserve">
+    <value>도시</value>
+  </data>
+  <data name="Menu_Products_Item_Text" xml:space="preserve">
+    <value>제품</value>
+  </data>
+  <data name="Menu_StockMovements_Item_Text" xml:space="preserve">
+    <value>재고 이동</value>
+  </data>
+
+  <data name="General_CountrySummaryPage_Title" xml:space="preserve">
+    <value>국가</value>
+  </data>
+  <data name="General_CountrySummaryPage_NameColumn_Title" xml:space="preserve">
+    <value>이름</value>
+  </data>
+
+  <data name="General_CountryFormPage_Title" xml:space="preserve">
+    <value>국가</value>
+  </data>
+  <data name="General_CountryFormPage_GeneralFieldset_Title" xml:space="preserve">
+    <value>일반</value>
+  </data>
+  <data name="General_CountryFormPage_GeneralFieldset_IdField_Text" xml:space="preserve">
+    <value>ID: {0}</value>
+  </data>
+  <data name="General_CountryFormPage_GeneralFieldset_NameField_Label" xml:space="preserve">
+    <value>이름</value>
+  </data>
+  <data name="General_CountryFormPage_GeneralFieldset_NameField_Required" xml:space="preserve">
+    <value>이름은 필수입니다.</value>
+  </data>
+  <data name="General_CountryFormPage_GeneralFieldset_NameField_InvalidLength" xml:space="preserve">
+    <value>최대 길이: 200</value>
+  </data>
+  <data name="General_CountryFormPage_GeneralFieldset_CodeField_Label" xml:space="preserve">
+    <value>코드</value>
+  </data>
+  <data name="General_CountryFormPage_GeneralFieldset_CodeField_InvalidLength" xml:space="preserve">
+    <value>최대 길이: 200</value>
+  </data>
+
+  <data name="General_CountrySummaryDropDownDataGridControl_NameColumn_Title" xml:space="preserve">
+    <value>이름</value>
+  </data>
+
+  <data name="General_StateSummaryPage_Title" xml:space="preserve">
+    <value>시/도</value>
+  </data>
+  <data name="General_StateSummaryPage_FilterContent_CountryField_Label" xml:space="preserve">
+    <value>국가</value>
+  </data>
+  <data name="General_StateSummaryPage_NameColumn_Title" xml:space="preserve">
+    <value>이름</value>
+  </data>
+  <data name="General_StateSummaryPage_CountryNameColumn_Title" xml:space="preserve">
+    <value>국가</value>
+  </data>
+
+  <data name="General_StateFormPage_Title" xml:space="preserve">
+    <value>시/도</value>
+  </data>
+  <data name="General_StateFormPage_GeneralFieldset_Title" xml:space="preserve">
+    <value>일반</value>
+  </data>
+  <data name="General_StateFormPage_GeneralFieldset_IdField_Text" xml:space="preserve">
+    <value>ID: {0}</value>
+  </data>
+  <data name="General_StateFormPage_GeneralFieldset_NameField_Label" xml:space="preserve">
+    <value>이름</value>
+  </data>
+  <data name="General_StateFormPage_GeneralFieldset_NameField_Required" xml:space="preserve">
+    <value>이름은 필수입니다.</value>
+  </data>
+  <data name="General_StateFormPage_GeneralFieldset_NameField_InvalidLength" xml:space="preserve">
+    <value>최대 길이: 200</value>
+  </data>
+  <data name="General_StateFormPage_GeneralFieldset_CodeField_Label" xml:space="preserve">
+    <value>코드</value>
+  </data>
+  <data name="General_StateFormPage_GeneralFieldset_CodeField_InvalidLength" xml:space="preserve">
+    <value>최대 길이: 200</value>
+  </data>
+  <data name="General_StateFormPage_GeneralFieldset_CountryField_Label" xml:space="preserve">
+    <value>국가</value>
+  </data>
+  <data name="General_StateFormPage_GeneralFieldset_CountryField_Required" xml:space="preserve">
+    <value>국가는 필수입니다.</value>
+  </data>
+
+  <data name="General_StateSummaryDropDownDataGridControl_NameColumn_Title" xml:space="preserve">
+    <value>이름</value>
+  </data>
+  <data name="General_StateSummaryDropDownDataGridControl_CountryNameColumn_Title" xml:space="preserve">
+    <value>국가</value>
+  </data>
+
+  <data name="General_CitySummaryPage_Title" xml:space="preserve">
+    <value>도시</value>
+  </data>
+  <data name="General_CitySummaryPage_FilterContent_StateField_Label" xml:space="preserve">
+    <value>시/도</value>
+  </data>
+  <data name="General_CitySummaryPage_NameColumn_Title" xml:space="preserve">
+    <value>이름</value>
+  </data>
+  <data name="General_CitySummaryPage_StateNameColumn_Title" xml:space="preserve">
+    <value>시/도</value>
+  </data>
+  <data name="General_CitySummaryPage_CountryNameColumn_Title" xml:space="preserve">
+    <value>국가</value>
+  </data>
+
+  <data name="General_CityFormPage_Title" xml:space="preserve">
+    <value>도시</value>
+  </data>
+  <data name="General_CityFormPage_GeneralFieldset_Title" xml:space="preserve">
+    <value>일반</value>
+  </data>
+  <data name="General_CityFormPage_GeneralFieldset_IdField_Text" xml:space="preserve">
+    <value>ID: {0}</value>
+  </data>
+  <data name="General_CityFormPage_GeneralFieldset_NameField_Label" xml:space="preserve">
+    <value>이름</value>
+  </data>
+  <data name="General_CityFormPage_GeneralFieldset_NameField_Required" xml:space="preserve">
+    <value>이름은 필수입니다.</value>
+  </data>
+  <data name="General_CityFormPage_GeneralFieldset_NameField_InvalidLength" xml:space="preserve">
+    <value>최대 길이: 200</value>
+  </data>
+  <data name="General_CityFormPage_GeneralFieldset_CodeField_Label" xml:space="preserve">
+    <value>코드</value>
+  </data>
+  <data name="General_CityFormPage_GeneralFieldset_CodeField_InvalidLength" xml:space="preserve">
+    <value>최대 길이: 200</value>
+  </data>
+  <data name="General_CityFormPage_GeneralFieldset_StateField_Label" xml:space="preserve">
+    <value>시/도</value>
+  </data>
+  <data name="General_CityFormPage_GeneralFieldset_StateField_Required" xml:space="preserve">
+    <value>시/도는 필수입니다.</value>
+  </data>
+  <data name="General_CityFormPage_NeighborhoodFieldset_Title" xml:space="preserve">
+    <value>동네</value>
+  </data>
+  <data name="General_CityFormPage_NeighborhoodFieldset_NameColumn_Title" xml:space="preserve">
+    <value>이름</value>
+  </data>
+
+  <data name="General_NeighborhoodFormPage_Title" xml:space="preserve">
+    <value>동네</value>
+  </data>
+  <data name="General_NeighborhoodFormPage_GeneralFieldset_Title" xml:space="preserve">
+    <value>일반</value>
+  </data>
+  <data name="General_NeighborhoodFormPage_GeneralFieldset_IdField_Text" xml:space="preserve">
+    <value>ID: {0}</value>
+  </data>
+  <data name="General_NeighborhoodFormPage_GeneralFieldset_NameField_Label" xml:space="preserve">
+    <value>이름</value>
+  </data>
+  <data name="General_NeighborhoodFormPage_GeneralFieldset_NameField_Required" xml:space="preserve">
+    <value>이름은 필수입니다.</value>
+  </data>
+  <data name="General_NeighborhoodFormPage_GeneralFieldset_NameField_InvalidLength" xml:space="preserve">
+    <value>최대 길이: 200</value>
+  </data>
+  <data name="General_NeighborhoodFormPage_GeneralFieldset_CodeField_Label" xml:space="preserve">
+    <value>코드</value>
+  </data>
+  <data name="General_NeighborhoodFormPage_GeneralFieldset_CodeField_InvalidLength" xml:space="preserve">
+    <value>최대 길이: 200</value>
+  </data>
+
+  <data name="Inventory_ProductSummaryPage_Title" xml:space="preserve">
+    <value>제품</value>
+  </data>
+  <data name="Inventory_ProductSummaryPage_NameColumn_Title" xml:space="preserve">
+    <value>이름</value>
+  </data>
+  <data name="Inventory_ProductSummaryPage_CodeColumn_Title" xml:space="preserve">
+    <value>코드</value>
+  </data>
+  <data name="Inventory_ProductSummaryPage_MinimumQuantityColumn_Title" xml:space="preserve">
+    <value>최소 재고</value>
+  </data>
+
+  <data name="Inventory_ProductFormPage_Title" xml:space="preserve">
+    <value>제품</value>
+  </data>
+  <data name="Inventory_ProductFormPage_GeneralFieldset_Title" xml:space="preserve">
+    <value>일반</value>
+  </data>
+  <data name="Inventory_ProductFormPage_GeneralFieldset_IdField_Text" xml:space="preserve">
+    <value>ID: {0}</value>
+  </data>
+  <data name="Inventory_ProductFormPage_GeneralFieldset_NameField_Label" xml:space="preserve">
+    <value>이름</value>
+  </data>
+  <data name="Inventory_ProductFormPage_GeneralFieldset_NameField_Required" xml:space="preserve">
+    <value>이름을 입력하세요.</value>
+  </data>
+  <data name="Inventory_ProductFormPage_GeneralFieldset_NameField_InvalidLength" xml:space="preserve">
+    <value>이름은 최대 200자여야 합니다.</value>
+  </data>
+  <data name="Inventory_ProductFormPage_GeneralFieldset_CodeField_Label" xml:space="preserve">
+    <value>코드</value>
+  </data>
+  <data name="Inventory_ProductFormPage_GeneralFieldset_CodeField_InvalidLength" xml:space="preserve">
+    <value>코드는 최대 200자여야 합니다.</value>
+  </data>
+  <data name="Inventory_ProductFormPage_GeneralFieldset_MinimumQuantityField_Label" xml:space="preserve">
+    <value>최소 재고</value>
+  </data>
+  <data name="Inventory_ProductFormPage_GeneralFieldset_MinimumQuantityField_InvalidValue" xml:space="preserve">
+    <value>최소 재고는 0 이상이어야 합니다.</value>
+  </data>
+
+  <data name="Inventory_ProductSummaryDropDownDataGridControl_NameColumn_Title" xml:space="preserve">
+    <value>이름</value>
+  </data>
+  <data name="Inventory_ProductSummaryDropDownDataGridControl_CodeColumn_Title" xml:space="preserve">
+    <value>코드</value>
+  </data>
+
+  <data name="Inventory_StockMovementSummaryPage_Title" xml:space="preserve">
+    <value>재고 이동</value>
+  </data>
+  <data name="Inventory_StockMovementSummaryPage_FilterContent_ProductField_Label" xml:space="preserve">
+    <value>제품</value>
+  </data>
+  <data name="Inventory_StockMovementSummaryPage_ProductColumn_Title" xml:space="preserve">
+    <value>제품</value>
+  </data>
+  <data name="Inventory_StockMovementSummaryPage_QuantityColumn_Title" xml:space="preserve">
+    <value>수량</value>
+  </data>
+  <data name="Inventory_StockMovementSummaryPage_MovementDateColumn_Title" xml:space="preserve">
+    <value>이동 날짜</value>
+  </data>
+  <data name="Inventory_StockMovementSummaryPage_IsOutboundColumn_Title" xml:space="preserve">
+    <value>방향</value>
+  </data>
+  <data name="Inventory_StockMovementSummaryPage_IsOutboundColumn_Outbound_Text" xml:space="preserve">
+    <value>출고</value>
+  </data>
+  <data name="Inventory_StockMovementSummaryPage_IsOutboundColumn_Inbound_Text" xml:space="preserve">
+    <value>입고</value>
+  </data>
+
+  <data name="Inventory_StockMovementFormPage_Title" xml:space="preserve">
+    <value>재고 이동</value>
+  </data>
+  <data name="Inventory_StockMovementFormPage_GeneralFieldset_Title" xml:space="preserve">
+    <value>일반</value>
+  </data>
+  <data name="Inventory_StockMovementFormPage_GeneralFieldset_IdField_Text" xml:space="preserve">
+    <value>ID: {0}</value>
+  </data>
+  <data name="Inventory_StockMovementFormPage_GeneralFieldset_ProductField_Label" xml:space="preserve">
+    <value>제품</value>
+  </data>
+  <data name="Inventory_StockMovementFormPage_GeneralFieldset_ProductField_Required" xml:space="preserve">
+    <value>제품을 선택하세요.</value>
+  </data>
+  <data name="Inventory_StockMovementFormPage_GeneralFieldset_QuantityField_Label" xml:space="preserve">
+    <value>수량</value>
+  </data>
+  <data name="Inventory_StockMovementFormPage_GeneralFieldset_QuantityField_InvalidValue" xml:space="preserve">
+    <value>수량은 0보다 커야 합니다.</value>
+  </data>
+  <data name="Inventory_StockMovementFormPage_GeneralFieldset_MovementDateField_Label" xml:space="preserve">
+    <value>이름 날짜</value>
+  </data>
+  <data name="Inventory_StockMovementFormPage_GeneralFieldset_MovementDateField_Required" xml:space="preserve">
+    <value>이동 날짜를 선택하세요.</value>
+  </data>
+  <data name="Inventory_StockMovementFormPage_GeneralFieldset_IsOutboundField_Label" xml:space="preserve">
+    <value>출고 여부</value>
+  </data>
+
+  <data name="Inventory_LowStockEmail_Subject" xml:space="preserve">
+    <value>재고 부족 알림</value>
+  </data>
+  <data name="Inventory_LowStockEmail_Intro" xml:space="preserve">
+    <value>다음 제품이 최소 재고 미만입니다:</value>
+  </data>
+  <data name="Inventory_LowStockEmail_ItemFormat" xml:space="preserve">
+    <value>{0}: 잔고 {1}, 최소 {2}</value>
+  </data>
+  <data name="Inventory_LowStockEmail_Closing" xml:space="preserve">
+    <value>가능한 한 빨리 재입고해 주시기 바랍니다.</value>
+  </data>
+</root>

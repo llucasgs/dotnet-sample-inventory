@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="accessmodifier">
+    <value>public</value>
+  </resheader>
+
+  <data name="Sample_Message_Text" xml:space="preserve">
+    <value>عينة</value>
+  </data>
+  <data name="SampleEmailTemplate_Introduction_Message" xml:space="preserve">
+    <value>مرحباً، {0}!</value>
+  </data>
+  <data name="SampleEmailTemplate_Body_Message" xml:space="preserve">
+    <value>هذه رسالة عينة لك.</value>
+  </data>
+  <data name="SampleEmailTemplate_Date_Message" xml:space="preserve">
+    <value>تاريخ الإرسال: {0}</value>
+  </data>
+
+  <data name="General_Country_DuplicateName" xml:space="preserve">
+    <value>اسم الدولة موجود بالفعل.</value>
+  </data>
+  <data name="General_State_DuplicateName" xml:space="preserve">
+    <value>اسم الولاية/المحافظة موجود بالفعل لنفس الدولة.</value>
+  </data>
+  <data name="General_City_DuplicateName" xml:space="preserve">
+    <value>اسم المدينة موجود بالفعل لنفس الولاية/المحافظة.</value>
+  </data>
+  <data name="General_City_Neighborhood_DuplicateName" xml:space="preserve">
+    <value>اسم الحي موجود بالفعل لنفس المدينة.</value>
+  </data>
+  <data name="Inventory_Product_DuplicateName" xml:space="preserve">
+    <value>يوجد منتج بنفس الاسم بالفعل.</value>
+  </data>
+  <data name="Inventory_Product_DuplicateCode" xml:space="preserve">
+    <value>يوجد منتج بنفس الكود بالفعل.</value>
+  </data>
+  <data name="Inventory_Product_ContainsStockMovements" xml:space="preserve">
+    <value>يحتوي هذا المنتج على حركات مخزنية ولا يمكن حذفه.</value>
+  </data>
+  <data name="Inventory_StockMovement_InvalidQuantity" xml:space="preserve">
+    <value>يجب أن تكون الكمية أكبر من الصفر.</value>
+  </data>
+  <data name="Inventory_StockMovement_ProductNotFound" xml:space="preserve">
+    <value>المنتج غير موجود.</value>
+  </data>
+  <data name="Inventory_StockMovement_InsufficientStock" xml:space="preserve">
+    <value>مخزون غير كافٍ لهذه الحركة.</value>
+  </data>
+
+  <data name="Footer_Text" xml:space="preserve">
+    <value>حقوق النشر © اسم شركتك. جميع الحقوق محفوظة.</value>
+  </data>
+  <data name="Home_Title" xml:space="preserve">
+    <value>الرئيسية</value>
+  </data>
+  <data name="Home_Message" xml:space="preserve">
+    <value>مرحباً بك في تطبيقك الجديد!</value>
+  </data>
+  <data name="NotAuthorized_Title" xml:space="preserve">
+    <value>غير مصرح</value>
+  </data>
+  <data name="NotAuthorized_Message" xml:space="preserve">
+    <value>عذراً، لم تقم بتسجيل الدخول.</value>
+  </data>
+  <data name="NotFound_Title" xml:space="preserve">
+    <value>غير موجود</value>
+  </data>
+  <data name="NotFound_Message" xml:space="preserve">
+    <value>عذراً، لا يوجد شيء في هذا العنوان.</value>
+  </data>
+
+  <data name="Login_Button_Text" xml:space="preserve">
+    <value>تسجيل الدخول</value>
+  </data>
+  <data name="Logout_Button_Text" xml:space="preserve">
+    <value>تسجيل الخروج</value>
+  </data>
+
+  <data name="Dialog_Error_Title" xml:space="preserve">
+    <value>خطأ</value>
+  </data>
+  <data name="Dialog_Error_OkButton_Text" xml:space="preserve">
+    <value>موافق</value>
+  </data>
+  <data name="Dialog_Info_Title" xml:space="preserve">
+    <value>معلومات</value>
+  </data>
+  <data name="Dialog_Info_OkButton_Text" xml:space="preserve">
+    <value>موافق</value>
+  </data>
+  <data name="Dialog_Confirm_Title" xml:space="preserve">
+    <value>تأكيد</value>
+  </data>
+  <data name="Dialog_Confirm_YesButton_Text" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="Dialog_Confirm_NoButton_Text" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="Dialog_Confirm_Delete_Message" xml:space="preserve">
+    <value>هل أنت متأكد أنك تريد الحذف؟</value>
+  </data>
+  <data name="Dialog_Busy_Message" xml:space="preserve">
+    <value>جاري المعالجة...</value>
+  </data>
+
+  <data name="Exception_AdditionalInfo_Message" xml:space="preserve">
+    <value>تفاصيل إضافية: {0}</value>
+  </data>
+  <data name="Exception_UnhandledException_Message" xml:space="preserve">
+    <value>حدث استثناء غير معالج.</value>
+  </data>
+
+  <data name="DataGridControl_NewButton_Text" xml:space="preserve">
+    <value>جديد</value>
+  </data>
+  <data name="DataGridControl_AddButton_Text" xml:space="preserve">
+    <value>إضافة</value>
+  </data>
+  <data name="DataGridControl_EditButton_Text" xml:space="preserve">
+    <value>تعديل</value>
+  </data>
+  <data name="DataGridControl_OpenButton_Text" xml:space="preserve">
+    <value>فتح</value>
+  </data>
+  <data name="DataGridControl_DeleteButton_Text" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+
+  <data name="SearchControl_SearchField_Label" xml:space="preserve">
+    <value>بحث</value>
+  </data>
+  <data name="SearchControl_SearchButton_Text" xml:space="preserve">
+    <value>بحث</value>
+  </data>
+  <data name="SearchControl_TakeField_Label" xml:space="preserve">
+    <value>العدد</value>
+  </data>
+  <data name="SearchControl_TakeField_Info_Message" xml:space="preserve">
+    <value>تم عرض {0} نتائج فقط. لرؤية المزيد، قم بتغيير حقل العدد.</value>
+  </data>
+  <data name="SearchControl_AdvancedFiltersButton_Text" xml:space="preserve">
+    <value>فلاتر متقدمة</value>
+  </data>
+
+  <data name="ModelFormControl_SaveButton_Text" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="ModelFormControl_ExecuteButton_Text" xml:space="preserve">
+    <value>تنفيذ</value>
+  </data>
+  <data name="ModelFormControl_CancelButton_Text" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="ModelFormControl_CloseButton_Text" xml:space="preserve">
+    <value>إغلاق</value>
+  </data>
+
+  <data name="RadzenFieldset_Collapse_Title" xml:space="preserve">
+    <value>طي</value>
+  </data>
+  <data name="RadzenFieldset_Expand_Title" xml:space="preserve">
+    <value>توسيع</value>
+  </data>
+  <data name="RadzenDataGrid_Empty_Text" xml:space="preserve">
+    <value>لا توجد سجلات للعرض.</value>
+  </data>
+  <data name="RadzenDataGrid_GroupPanel_Text" xml:space="preserve">
+    <value>اسحب عنوان العمود وأفلته هنا للتجميع حسب ذلك العمود</value>
+  </data>
+  <data name="RadzenDataGrid_PageSize_Text" xml:space="preserve">
+    <value>عنصر في الصفحة</value>
+  </data>
+  <data name="RadzenDataGrid_Filter_Text" xml:space="preserve">
+    <value>فلترة</value>
+  </data>
+  <data name="RadzenDataGrid_Equals_Text" xml:space="preserve">
+    <value>يساوي</value>
+  </data>
+  <data name="RadzenDataGrid_NotEquals_Text" xml:space="preserve">
+    <value>لا يساوي</value>
+  </data>
+  <data name="RadzenDataGrid_Contains_Text" xml:space="preserve">
+    <value>يحتوي على</value>
+  </data>
+  <data name="RadzenDataGrid_StartsWith_Text" xml:space="preserve">
+    <value>يبدأ بـ</value>
+  </data>
+  <data name="RadzenDataGrid_EndsWith_Text" xml:space="preserve">
+    <value>ينتهي بـ</value>
+  </data>
+  <data name="RadzenDataGrid_DoesNotContain_Text" xml:space="preserve">
+    <value>لا يحتوي على</value>
+  </data>
+  <data name="RadzenDataGrid_IsNull_Text" xml:space="preserve">
+    <value>فارغ (Null)</value>
+  </data>
+  <data name="RadzenDataGrid_IsEmpty_Text" xml:space="preserve">
+    <value>فارغ</value>
+  </data>
+  <data name="RadzenDataGrid_IsNotNull_Text" xml:space="preserve">
+    <value>ليس فارغاً (Null)</value>
+  </data>
+  <data name="RadzenDataGrid_IsNotEmpty_Text" xml:space="preserve">
+    <value>ليس فارغاً</value>
+  </data>
+  <data name="RadzenDataGrid_ClearFilter_Text" xml:space="preserve">
+    <value>مسح الفلتر</value>
+  </data>
+  <data name="RadzenDataGrid_ApplyFilter_Text" xml:space="preserve">
+    <value>تطبيق الفلتر</value>
+  </data>
+  <data name="RadzenDataGrid_AndOperator_Text" xml:space="preserve">
+    <value>و (And)</value>
+  </data>
+  <data name="RadzenDataGrid_OrOperator_Text" xml:space="preserve">
+    <value>أو (Or)</value>
+  </data>
+  <data name="RadzenDataGrid_NextPage_Title" xml:space="preserve">
+    <value>الصفحة التالية</value>
+  </data>
+  <data name="RadzenDataGrid_LastPage_Title" xml:space="preserve">
+    <value>الصفحة الأخيرة</value>
+  </data>
+  <data name="RadzenDataGrid_PreviousPage_Title" xml:space="preserve">
+    <value>الصفحة السابقة</value>
+  </data>
+  <data name="RadzenDataGrid_FirstPage_Title" xml:space="preserve">
+    <value>الصفحة الأولى</value>
+  </data>
+  <data name="RadzenDataGrid_Page_TitleFormat" xml:space="preserve">
+    <value>صفحة {{0}}</value>
+  </data>
+  <data name="RadzenDropDownDataGrid_EmptyText" xml:space="preserve" xml:lang="ar-SA">
+    <value>لم يتم العثور على سجلات.</value>
+  </data>
+  <data name="RadzenDropDownDataGrid_SearchTextPlaceholder" xml:space="preserve" xml:lang="ar-SA">
+    <value>بحث...</value>
+  </data>
+
+  <data name="Menu_Home_Item_Text" xml:space="preserve">
+    <value>الرئيسية</value>
+  </data>
+  <data name="Menu_Countries_Item_Text" xml:space="preserve">
+    <value>الدول</value>
+  </data>
+  <data name="Menu_States_Item_Text" xml:space="preserve">
+    <value>الولايات/المحافظات</value>
+  </data>
+  <data name="Menu_Cities_Item_Text" xml:space="preserve">
+    <value>المدن</value>
+  </data>
+  <data name="Menu_Products_Item_Text" xml:space="preserve">
+    <value>المنتجات</value>
+  </data>
+  <data name="Menu_StockMovements_Item_Text" xml:space="preserve">
+    <value>حركات المخزون</value>
+  </data>
+
+  <data name="General_CountrySummaryPage_Title" xml:space="preserve">
+    <value>الدول</value>
+  </data>
+  <data name="General_CountrySummaryPage_NameColumn_Title" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+
+  <data name="General_CountryFormPage_Title" xml:space="preserve">
+    <value>الدولة</value>
+  </data>
+  <data name="General_CountryFormPage_GeneralFieldset_Title" xml:space="preserve">
+    <value>عام</value>
+  </data>
+  <data name="General_CountryFormPage_GeneralFieldset_IdField_Text" xml:space="preserve">
+    <value>المعرف: {0}</value>
+  </data>
+  <data name="General_CountryFormPage_GeneralFieldset_NameField_Label" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="General_CountryFormPage_GeneralFieldset_NameField_Required" xml:space="preserve">
+    <value>الاسم مطلوب</value>
+  </data>
+  <data name="General_CountryFormPage_GeneralFieldset_NameField_InvalidLength" xml:space="preserve">
+    <value>أقصى طول: 200</value>
+  </data>
+  <data name="General_CountryFormPage_GeneralFieldset_CodeField_Label" xml:space="preserve">
+    <value>الكود</value>
+  </data>
+  <data name="General_CountryFormPage_GeneralFieldset_CodeField_InvalidLength" xml:space="preserve">
+    <value>أقصى طول: 200</value>
+  </data>
+
+  <data name="General_CountrySummaryDropDownDataGridControl_NameColumn_Title" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+
+  <data name="General_StateSummaryPage_Title" xml:space="preserve">
+    <value>الولايات/المحافظات</value>
+  </data>
+  <data name="General_StateSummaryPage_FilterContent_CountryField_Label" xml:space="preserve">
+    <value>الدولة</value>
+  </data>
+  <data name="General_StateSummaryPage_NameColumn_Title" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="General_StateSummaryPage_CountryNameColumn_Title" xml:space="preserve">
+    <value>الدولة</value>
+  </data>
+
+  <data name="General_StateFormPage_Title" xml:space="preserve">
+    <value>الولاية/المحافظة</value>
+  </data>
+  <data name="General_StateFormPage_GeneralFieldset_Title" xml:space="preserve">
+    <value>عام</value>
+  </data>
+  <data name="General_StateFormPage_GeneralFieldset_IdField_Text" xml:space="preserve">
+    <value>المعرف: {0}</value>
+  </data>
+  <data name="General_StateFormPage_GeneralFieldset_NameField_Label" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="General_StateFormPage_GeneralFieldset_NameField_Required" xml:space="preserve">
+    <value>الاسم مطلوب</value>
+  </data>
+  <data name="General_StateFormPage_GeneralFieldset_NameField_InvalidLength" xml:space="preserve">
+    <value>أقصى طول: 200</value>
+  </data>
+  <data name="General_StateFormPage_GeneralFieldset_CodeField_Label" xml:space="preserve">
+    <value>الكود</value>
+  </data>
+  <data name="General_StateFormPage_GeneralFieldset_CodeField_InvalidLength" xml:space="preserve">
+    <value>أقصى طول: 200</value>
+  </data>
+  <data name="General_StateFormPage_GeneralFieldset_CountryField_Label" xml:space="preserve">
+    <value>الدولة</value>
+  </data>
+  <data name="General_StateFormPage_GeneralFieldset_CountryField_Required" xml:space="preserve">
+    <value>الدولة مطلوبة</value>
+  </data>
+
+  <data name="General_StateSummaryDropDownDataGridControl_NameColumn_Title" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="General_StateSummaryDropDownDataGridControl_CountryNameColumn_Title" xml:space="preserve">
+    <value>الدولة</value>
+  </data>
+
+  <data name="General_CitySummaryPage_Title" xml:space="preserve">
+    <value>المدن</value>
+  </data>
+  <data name="General_CitySummaryPage_FilterContent_StateField_Label" xml:space="preserve">
+    <value>الولاية/المحافظة</value>
+  </data>
+  <data name="General_CitySummaryPage_NameColumn_Title" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="General_CitySummaryPage_StateNameColumn_Title" xml:space="preserve">
+    <value>الولاية/المحافظة</value>
+  </data>
+  <data name="General_CitySummaryPage_CountryNameColumn_Title" xml:space="preserve">
+    <value>الدولة</value>
+  </data>
+
+  <data name="General_CityFormPage_Title" xml:space="preserve">
+    <value>المدينة</value>
+  </data>
+  <data name="General_CityFormPage_GeneralFieldset_Title" xml:space="preserve">
+    <value>عام</value>
+  </data>
+  <data name="General_CityFormPage_GeneralFieldset_IdField_Text" xml:space="preserve">
+    <value>المعرف: {0}</value>
+  </data>
+  <data name="General_CityFormPage_GeneralFieldset_NameField_Label" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="General_CityFormPage_GeneralFieldset_NameField_Required" xml:space="preserve">
+    <value>الاسم مطلوب</value>
+  </data>
+  <data name="General_CityFormPage_GeneralFieldset_NameField_InvalidLength" xml:space="preserve">
+    <value>أقصى طول: 200</value>
+  </data>
+  <data name="General_CityFormPage_GeneralFieldset_CodeField_Label" xml:space="preserve">
+    <value>الكود</value>
+  </data>
+  <data name="General_CityFormPage_GeneralFieldset_CodeField_InvalidLength" xml:space="preserve">
+    <value>أقصى طول: 200</value>
+  </data>
+  <data name="General_CityFormPage_GeneralFieldset_StateField_Label" xml:space="preserve">
+    <value>الولاية/المحافظة</value>
+  </data>
+  <data name="General_CityFormPage_GeneralFieldset_StateField_Required" xml:space="preserve">
+    <value>الولاية/المحافظة مطلوبة</value>
+  </data>
+  <data name="General_CityFormPage_NeighborhoodFieldset_Title" xml:space="preserve">
+    <value>الأحياء</value>
+  </data>
+  <data name="General_CityFormPage_NeighborhoodFieldset_NameColumn_Title" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+
+  <data name="General_NeighborhoodFormPage_Title" xml:space="preserve">
+    <value>الحي</value>
+  </data>
+  <data name="General_NeighborhoodFormPage_GeneralFieldset_Title" xml:space="preserve">
+    <value>عام</value>
+  </data>
+  <data name="General_NeighborhoodFormPage_GeneralFieldset_IdField_Text" xml:space="preserve">
+    <value>المعرف: {0}</value>
+  </data>
+  <data name="General_NeighborhoodFormPage_GeneralFieldset_NameField_Label" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="General_NeighborhoodFormPage_GeneralFieldset_NameField_Required" xml:space="preserve">
+    <value>الاسم مطلوب</value>
+  </data>
+  <data name="General_NeighborhoodFormPage_GeneralFieldset_NameField_InvalidLength" xml:space="preserve">
+    <value>أقصى طول: 200</value>
+  </data>
+  <data name="General_NeighborhoodFormPage_GeneralFieldset_CodeField_Label" xml:space="preserve">
+    <value>الكود</value>
+  </data>
+  <data name="General_NeighborhoodFormPage_GeneralFieldset_CodeField_InvalidLength" xml:space="preserve">
+    <value>أقصى طول: 200</value>
+  </data>
+
+  <data name="Inventory_ProductSummaryPage_Title" xml:space="preserve">
+    <value>المنتجات</value>
+  </data>
+  <data name="Inventory_ProductSummaryPage_NameColumn_Title" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="Inventory_ProductSummaryPage_CodeColumn_Title" xml:space="preserve">
+    <value>الكود</value>
+  </data>
+  <data name="Inventory_ProductSummaryPage_MinimumQuantityColumn_Title" xml:space="preserve">
+    <value>الحد الأدنى للمخزون</value>
+  </data>
+
+  <data name="Inventory_ProductFormPage_Title" xml:space="preserve">
+    <value>المنتج</value>
+  </data>
+  <data name="Inventory_ProductFormPage_GeneralFieldset_Title" xml:space="preserve">
+    <value>عام</value>
+  </data>
+  <data name="Inventory_ProductFormPage_GeneralFieldset_IdField_Text" xml:space="preserve">
+    <value>المعرف: {0}</value>
+  </data>
+  <data name="Inventory_ProductFormPage_GeneralFieldset_NameField_Label" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="Inventory_ProductFormPage_GeneralFieldset_NameField_Required" xml:space="preserve">
+    <value>يرجى إدخال الاسم.</value>
+  </data>
+  <data name="Inventory_ProductFormPage_GeneralFieldset_NameField_InvalidLength" xml:space="preserve">
+    <value>يجب ألا يتجاوز الاسم 200 حرف.</value>
+  </data>
+  <data name="Inventory_ProductFormPage_GeneralFieldset_CodeField_Label" xml:space="preserve">
+    <value>الكود</value>
+  </data>
+  <data name="Inventory_ProductFormPage_GeneralFieldset_CodeField_InvalidLength" xml:space="preserve">
+    <value>يجب ألا يتجاوز الكود 200 حرف.</value>
+  </data>
+  <data name="Inventory_ProductFormPage_GeneralFieldset_MinimumQuantityField_Label" xml:space="preserve">
+    <value>الحد الأدنى للمخزون</value>
+  </data>
+  <data name="Inventory_ProductFormPage_GeneralFieldset_MinimumQuantityField_InvalidValue" xml:space="preserve">
+    <value>يجب أن يكون الحد الأدنى للمخزون أكبر من أو يساوي الصفر.</value>
+  </data>
+
+  <data name="Inventory_ProductSummaryDropDownDataGridControl_NameColumn_Title" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="Inventory_ProductSummaryDropDownDataGridControl_CodeColumn_Title" xml:space="preserve">
+    <value>الكود</value>
+  </data>
+
+  <data name="Inventory_StockMovementSummaryPage_Title" xml:space="preserve">
+    <value>حركات المخزون</value>
+  </data>
+  <data name="Inventory_StockMovementSummaryPage_FilterContent_ProductField_Label" xml:space="preserve">
+    <value>المنتج</value>
+  </data>
+  <data name="Inventory_StockMovementSummaryPage_ProductColumn_Title" xml:space="preserve">
+    <value>المنتج</value>
+  </data>
+  <data name="Inventory_StockMovementSummaryPage_QuantityColumn_Title" xml:space="preserve">
+    <value>الكمية</value>
+  </data>
+  <data name="Inventory_StockMovementSummaryPage_MovementDateColumn_Title" xml:space="preserve">
+    <value>تاريخ الحركة</value>
+  </data>
+  <data name="Inventory_StockMovementSummaryPage_IsOutboundColumn_Title" xml:space="preserve">
+    <value>الاتجاه</value>
+  </data>
+  <data name="Inventory_StockMovementSummaryPage_IsOutboundColumn_Outbound_Text" xml:space="preserve">
+    <value>صادر</value>
+  </data>
+  <data name="Inventory_StockMovementSummaryPage_IsOutboundColumn_Inbound_Text" xml:space="preserve">
+    <value>وارد</value>
+  </data>
+
+  <data name="Inventory_StockMovementFormPage_Title" xml:space="preserve">
+    <value>حركة المخزون</value>
+  </data>
+  <data name="Inventory_StockMovementFormPage_GeneralFieldset_Title" xml:space="preserve">
+    <value>عام</value>
+  </data>
+  <data name="Inventory_StockMovementFormPage_GeneralFieldset_IdField_Text" xml:space="preserve">
+    <value>المعرف: {0}</value>
+  </data>
+  <data name="Inventory_StockMovementFormPage_GeneralFieldset_ProductField_Label" xml:space="preserve">
+    <value>المنتج</value>
+  </data>
+  <data name="Inventory_StockMovementFormPage_GeneralFieldset_ProductField_Required" xml:space="preserve">
+    <value>يرجى اختيار المنتج.</value>
+  </data>
+  <data name="Inventory_StockMovementFormPage_GeneralFieldset_QuantityField_Label" xml:space="preserve">
+    <value>الكمية</value>
+  </data>
+  <data name="Inventory_StockMovementFormPage_GeneralFieldset_QuantityField_InvalidValue" xml:space="preserve">
+    <value>يجب أن تكون الكمية أكبر من الصفر.</value>
+  </data>
+  <data name="Inventory_StockMovementFormPage_GeneralFieldset_MovementDateField_Label" xml:space="preserve">
+    <value>تاريخ الحركة</value>
+  </data>
+  <data name="Inventory_StockMovementFormPage_GeneralFieldset_MovementDateField_Required" xml:space="preserve">
+    <value>يرجى اختيار تاريخ الحركة.</value>
+  </data>
+  <data name="Inventory_StockMovementFormPage_GeneralFieldset_IsOutboundField_Label" xml:space="preserve">
+    <value>هل هي حركة صادر؟</value>
+  </data>
+
+  <data name="Inventory_LowStockEmail_Subject" xml:space="preserve">
+    <value>تنبيه بانخفاض المخزون</value>
+  </data>
+  <data name="Inventory_LowStockEmail_Intro" xml:space="preserve">
+    <value>المنتجات التالية أقل من الحد الأدنى للمخزون:</value>
+  </data>
+  <data name="Inventory_LowStockEmail_ItemFormat" xml:space="preserve">
+    <value>{0}: الرصيد {1}، الحد الأدنى {2}</value>
+  </data>
+  <data name="Inventory_LowStockEmail_Closing" xml:space="preserve">
+    <value>يرجى إعادة تعبئة المخزون في أقرب وقت ممكن.</value>
+  </data>
+</root>

@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="accessmodifier">
+    <value>public</value>
+  </resheader>
+
+  <data name="Sample_Message_Text" xml:space="preserve">
+    <value>Пример</value>
+  </data>
+  <data name="SampleEmailTemplate_Introduction_Message" xml:space="preserve">
+    <value>Здравствуйте, {0}!</value>
+  </data>
+  <data name="SampleEmailTemplate_Body_Message" xml:space="preserve">
+    <value>Это пример сообщения для вас.</value>
+  </data>
+  <data name="SampleEmailTemplate_Date_Message" xml:space="preserve">
+    <value>Дата отправки: {0}</value>
+  </data>
+
+  <data name="General_Country_DuplicateName" xml:space="preserve">
+    <value>Название этой страны уже существует.</value>
+  </data>
+  <data name="General_State_DuplicateName" xml:space="preserve">
+    <value>Название этого штата/региона уже существует для той же страны.</value>
+  </data>
+  <data name="General_City_DuplicateName" xml:space="preserve">
+    <value>Название этого города уже существует для того же штата/региона.</value>
+  </data>
+  <data name="General_City_Neighborhood_DuplicateName" xml:space="preserve">
+    <value>Название этого района уже существует для того же города.</value>
+  </data>
+  <data name="Inventory_Product_DuplicateName" xml:space="preserve">
+    <value>Продукт с таким же названием уже существует.</value>
+  </data>
+  <data name="Inventory_Product_DuplicateCode" xml:space="preserve">
+    <value>Продукт с таким же кодом уже существует.</value>
+  </data>
+  <data name="Inventory_Product_ContainsStockMovements" xml:space="preserve">
+    <value>У этого продукта есть движения запасов, и его нельзя удалить.</value>
+  </data>
+  <data name="Inventory_StockMovement_InvalidQuantity" xml:space="preserve">
+    <value>Количество должно быть больше нуля.</value>
+  </data>
+  <data name="Inventory_StockMovement_ProductNotFound" xml:space="preserve">
+    <value>Продукт не найден.</value>
+  </data>
+  <data name="Inventory_StockMovement_InsufficientStock" xml:space="preserve">
+    <value>Недостаточно запасов для этого движения.</value>
+  </data>
+
+  <data name="Footer_Text" xml:space="preserve">
+    <value>Copyright © Название вашей компании. Все права защищены.</value>
+  </data>
+  <data name="Home_Title" xml:space="preserve">
+    <value>Главная</value>
+  </data>
+  <data name="Home_Message" xml:space="preserve">
+    <value>Добро пожаловать в ваше новое приложение!</value>
+  </data>
+  <data name="NotAuthorized_Title" xml:space="preserve">
+    <value>Не авторизован</value>
+  </data>
+  <data name="NotAuthorized_Message" xml:space="preserve">
+    <value>Извините, вы не вошли в систему.</value>
+  </data>
+  <data name="NotFound_Title" xml:space="preserve">
+    <value>Не найдено</value>
+  </data>
+  <data name="NotFound_Message" xml:space="preserve">
+    <value>Извините, по этому адресу ничего нет.</value>
+  </data>
+
+  <data name="Login_Button_Text" xml:space="preserve">
+    <value>Войти</value>
+  </data>
+  <data name="Logout_Button_Text" xml:space="preserve">
+    <value>Выйти</value>
+  </data>
+
+  <data name="Dialog_Error_Title" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="Dialog_Error_OkButton_Text" xml:space="preserve">
+    <value>Ок</value>
+  </data>
+  <data name="Dialog_Info_Title" xml:space="preserve">
+    <value>Информация</value>
+  </data>
+  <data name="Dialog_Info_OkButton_Text" xml:space="preserve">
+    <value>Ок</value>
+  </data>
+  <data name="Dialog_Confirm_Title" xml:space="preserve">
+    <value>Подтверждение</value>
+  </data>
+  <data name="Dialog_Confirm_YesButton_Text" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="Dialog_Confirm_NoButton_Text" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="Dialog_Confirm_Delete_Message" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить?</value>
+  </data>
+  <data name="Dialog_Busy_Message" xml:space="preserve">
+    <value>В процессе...</value>
+  </data>
+
+  <data name="Exception_AdditionalInfo_Message" xml:space="preserve">
+    <value>Дополнительные сведения: {0}</value>
+  </data>
+  <data name="Exception_UnhandledException_Message" xml:space="preserve">
+    <value>Необработанное исключение.</value>
+  </data>
+
+  <data name="DataGridControl_NewButton_Text" xml:space="preserve">
+    <value>Создать</value>
+  </data>
+  <data name="DataGridControl_AddButton_Text" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="DataGridControl_EditButton_Text" xml:space="preserve">
+    <value>Изменить</value>
+  </data>
+  <data name="DataGridControl_OpenButton_Text" xml:space="preserve">
+    <value>Открыть</value>
+  </data>
+  <data name="DataGridControl_DeleteButton_Text" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+
+  <data name="SearchControl_SearchField_Label" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+  <data name="SearchControl_SearchButton_Text" xml:space="preserve">
+    <value>Искать</value>
+  </data>
+  <data name="SearchControl_TakeField_Label" xml:space="preserve">
+    <value>Количество</value>
+  </data>
+  <data name="SearchControl_TakeField_Info_Message" xml:space="preserve">
+    <value>Показано только {0} результатов. Чтобы увидеть больше, измените поле Количество.</value>
+  </data>
+  <data name="SearchControl_AdvancedFiltersButton_Text" xml:space="preserve">
+    <value>Расширенные фильтры</value>
+  </data>
+
+  <data name="ModelFormControl_SaveButton_Text" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="ModelFormControl_ExecuteButton_Text" xml:space="preserve">
+    <value>Выполнить</value>
+  </data>
+  <data name="ModelFormControl_CancelButton_Text" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="ModelFormControl_CloseButton_Text" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+
+  <data name="RadzenFieldset_Collapse_Title" xml:space="preserve">
+    <value>Свернуть</value>
+  </data>
+  <data name="RadzenFieldset_Expand_Title" xml:space="preserve">
+    <value>Развернуть</value>
+  </data>
+  <data name="RadzenDataGrid_Empty_Text" xml:space="preserve">
+    <value>Нет записей для отображения.</value>
+  </data>
+  <data name="RadzenDataGrid_GroupPanel_Text" xml:space="preserve">
+    <value>Перетащите заголовок столбца сюда, чтобы сгруппировать по этому столбцу</value>
+  </data>
+  <data name="RadzenDataGrid_PageSize_Text" xml:space="preserve">
+    <value>элементов на странице</value>
+  </data>
+  <data name="RadzenDataGrid_Filter_Text" xml:space="preserve">
+    <value>Фильтр</value>
+  </data>
+  <data name="RadzenDataGrid_Equals_Text" xml:space="preserve">
+    <value>Равно</value>
+  </data>
+  <data name="RadzenDataGrid_NotEquals_Text" xml:space="preserve">
+    <value>Не равно</value>
+  </data>
+  <data name="RadzenDataGrid_Contains_Text" xml:space="preserve">
+    <value>Содержит</value>
+  </data>
+  <data name="RadzenDataGrid_StartsWith_Text" xml:space="preserve">
+    <value>Начинается с</value>
+  </data>
+  <data name="RadzenDataGrid_EndsWith_Text" xml:space="preserve">
+    <value>Заканчивается на</value>
+  </data>
+  <data name="RadzenDataGrid_DoesNotContain_Text" xml:space="preserve">
+    <value>Не содержит</value>
+  </data>
+  <data name="RadzenDataGrid_IsNull_Text" xml:space="preserve">
+    <value>Равно null</value>
+  </data>
+  <data name="RadzenDataGrid_IsEmpty_Text" xml:space="preserve">
+    <value>Пусто</value>
+  </data>
+  <data name="RadzenDataGrid_IsNotNull_Text" xml:space="preserve">
+    <value>Не равно null</value>
+  </data>
+  <data name="RadzenDataGrid_IsNotEmpty_Text" xml:space="preserve">
+    <value>Не пусто</value>
+  </data>
+  <data name="RadzenDataGrid_ClearFilter_Text" xml:space="preserve">
+    <value>Очистить фильтр</value>
+  </data>
+  <data name="RadzenDataGrid_ApplyFilter_Text" xml:space="preserve">
+    <value>Применить фильтр</value>
+  </data>
+  <data name="RadzenDataGrid_AndOperator_Text" xml:space="preserve">
+    <value>И</value>
+  </data>
+  <data name="RadzenDataGrid_OrOperator_Text" xml:space="preserve">
+    <value>Или</value>
+  </data>
+  <data name="RadzenDataGrid_NextPage_Title" xml:space="preserve">
+    <value>Следующая страница</value>
+  </data>
+  <data name="RadzenDataGrid_LastPage_Title" xml:space="preserve">
+    <value>Последняя страница</value>
+  </data>
+  <data name="RadzenDataGrid_PreviousPage_Title" xml:space="preserve">
+    <value>Предыдущая страница</value>
+  </data>
+  <data name="RadzenDataGrid_FirstPage_Title" xml:space="preserve">
+    <value>Первая страница</value>
+  </data>
+  <data name="RadzenDataGrid_Page_TitleFormat" xml:space="preserve">
+    <value>Страница {{0}}</value>
+  </data>
+  <data name="RadzenDropDownDataGrid_EmptyText" xml:space="preserve" xml:lang="ru-RU">
+    <value>Записи не найдены.</value>
+  </data>
+  <data name="RadzenDropDownDataGrid_SearchTextPlaceholder" xml:space="preserve" xml:lang="ru-RU">
+    <value>Поиск...</value>
+  </data>
+
+  <data name="Menu_Home_Item_Text" xml:space="preserve">
+    <value>Главная</value>
+  </data>
+  <data name="Menu_Countries_Item_Text" xml:space="preserve">
+    <value>Страны</value>
+  </data>
+  <data name="Menu_States_Item_Text" xml:space="preserve">
+    <value>Штаты / Регионы</value>
+  </data>
+  <data name="Menu_Cities_Item_Text" xml:space="preserve">
+    <value>Города</value>
+  </data>
+  <data name="Menu_Products_Item_Text" xml:space="preserve">
+    <value>Продукты</value>
+  </data>
+  <data name="Menu_StockMovements_Item_Text" xml:space="preserve">
+    <value>Движения запасов</value>
+  </data>
+
+  <data name="General_CountrySummaryPage_Title" xml:space="preserve">
+    <value>Страны</value>
+  </data>
+  <data name="General_CountrySummaryPage_NameColumn_Title" xml:space="preserve">
+    <value>Название</value>
+  </data>
+
+  <data name="General_CountryFormPage_Title" xml:space="preserve">
+    <value>Страна</value>
+  </data>
+  <data name="General_CountryFormPage_GeneralFieldset_Title" xml:space="preserve">
+    <value>Общие</value>
+  </data>
+  <data name="General_CountryFormPage_GeneralFieldset_IdField_Text" xml:space="preserve">
+    <value>Id: {0}</value>
+  </data>
+  <data name="General_CountryFormPage_GeneralFieldset_NameField_Label" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="General_CountryFormPage_GeneralFieldset_NameField_Required" xml:space="preserve">
+    <value>Требуется название</value>
+  </data>
+  <data name="General_CountryFormPage_GeneralFieldset_NameField_InvalidLength" xml:space="preserve">
+    <value>Макс. длина: 200</value>
+  </data>
+  <data name="General_CountryFormPage_GeneralFieldset_CodeField_Label" xml:space="preserve">
+    <value>Код</value>
+  </data>
+  <data name="General_CountryFormPage_GeneralFieldset_CodeField_InvalidLength" xml:space="preserve">
+    <value>Макс. длина: 200</value>
+  </data>
+
+  <data name="General_CountrySummaryDropDownDataGridControl_NameColumn_Title" xml:space="preserve">
+    <value>Название</value>
+  </data>
+
+  <data name="General_StateSummaryPage_Title" xml:space="preserve">
+    <value>Штаты / Регионы</value>
+  </data>
+  <data name="General_StateSummaryPage_FilterContent_CountryField_Label" xml:space="preserve">
+    <value>Страна</value>
+  </data>
+  <data name="General_StateSummaryPage_NameColumn_Title" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="General_StateSummaryPage_CountryNameColumn_Title" xml:space="preserve">
+    <value>Страна</value>
+  </data>
+
+  <data name="General_StateFormPage_Title" xml:space="preserve">
+    <value>Штат / Регион</value>
+  </data>
+  <data name="General_StateFormPage_GeneralFieldset_Title" xml:space="preserve">
+    <value>Общие</value>
+  </data>
+  <data name="General_StateFormPage_GeneralFieldset_IdField_Text" xml:space="preserve">
+    <value>Id: {0}</value>
+  </data>
+  <data name="General_StateFormPage_GeneralFieldset_NameField_Label" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="General_StateFormPage_GeneralFieldset_NameField_Required" xml:space="preserve">
+    <value>Требуется название</value>
+  </data>
+  <data name="General_StateFormPage_GeneralFieldset_NameField_InvalidLength" xml:space="preserve">
+    <value>Макс. длина: 200</value>
+  </data>
+  <data name="General_StateFormPage_GeneralFieldset_CodeField_Label" xml:space="preserve">
+    <value>Код</value>
+  </data>
+  <data name="General_StateFormPage_GeneralFieldset_CodeField_InvalidLength" xml:space="preserve">
+    <value>Макс. длина: 200</value>
+  </data>
+  <data name="General_StateFormPage_GeneralFieldset_CountryField_Label" xml:space="preserve">
+    <value>Страна</value>
+  </data>
+  <data name="General_StateFormPage_GeneralFieldset_CountryField_Required" xml:space="preserve">
+    <value>Требуется страна</value>
+  </data>
+
+  <data name="General_StateSummaryDropDownDataGridControl_NameColumn_Title" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="General_StateSummaryDropDownDataGridControl_CountryNameColumn_Title" xml:space="preserve">
+    <value>Страна</value>
+  </data>
+
+  <data name="General_CitySummaryPage_Title" xml:space="preserve">
+    <value>Города</value>
+  </data>
+  <data name="General_CitySummaryPage_FilterContent_StateField_Label" xml:space="preserve">
+    <value>Штат / Регион</value>
+  </data>
+  <data name="General_CitySummaryPage_NameColumn_Title" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="General_CitySummaryPage_StateNameColumn_Title" xml:space="preserve">
+    <value>Штат / Регион</value>
+  </data>
+  <data name="General_CitySummaryPage_CountryNameColumn_Title" xml:space="preserve">
+    <value>Страна</value>
+  </data>
+
+  <data name="General_CityFormPage_Title" xml:space="preserve">
+    <value>Город</value>
+  </data>
+  <data name="General_CityFormPage_GeneralFieldset_Title" xml:space="preserve">
+    <value>Общие</value>
+  </data>
+  <data name="General_CityFormPage_GeneralFieldset_IdField_Text" xml:space="preserve">
+    <value>Id: {0}</value>
+  </data>
+  <data name="General_CityFormPage_GeneralFieldset_NameField_Label" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="General_CityFormPage_GeneralFieldset_NameField_Required" xml:space="preserve">
+    <value>Требуется название</value>
+  </data>
+  <data name="General_CityFormPage_GeneralFieldset_NameField_InvalidLength" xml:space="preserve">
+    <value>Макс. длина: 200</value>
+  </data>
+  <data name="General_CityFormPage_GeneralFieldset_CodeField_Label" xml:space="preserve">
+    <value>Код</value>
+  </data>
+  <data name="General_CityFormPage_GeneralFieldset_CodeField_InvalidLength" xml:space="preserve">
+    <value>Макс. длина: 200</value>
+  </data>
+  <data name="General_CityFormPage_GeneralFieldset_StateField_Label" xml:space="preserve">
+    <value>Штат / Регион</value>
+  </data>
+  <data name="General_CityFormPage_GeneralFieldset_StateField_Required" xml:space="preserve">
+    <value>Требуется штат / регион</value>
+  </data>
+  <data name="General_CityFormPage_NeighborhoodFieldset_Title" xml:space="preserve">
+    <value>Районы</value>
+  </data>
+  <data name="General_CityFormPage_NeighborhoodFieldset_NameColumn_Title" xml:space="preserve">
+    <value>Название</value>
+  </data>
+
+  <data name="General_NeighborhoodFormPage_Title" xml:space="preserve">
+    <value>Район</value>
+  </data>
+  <data name="General_NeighborhoodFormPage_GeneralFieldset_Title" xml:space="preserve">
+    <value>Общие</value>
+  </data>
+  <data name="General_NeighborhoodFormPage_GeneralFieldset_IdField_Text" xml:space="preserve">
+    <value>Id: {0}</value>
+  </data>
+  <data name="General_NeighborhoodFormPage_GeneralFieldset_NameField_Label" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="General_NeighborhoodFormPage_GeneralFieldset_NameField_Required" xml:space="preserve">
+    <value>Требуется название</value>
+  </data>
+  <data name="General_NeighborhoodFormPage_GeneralFieldset_NameField_InvalidLength" xml:space="preserve">
+    <value>Макс. длина: 200</value>
+  </data>
+  <data name="General_NeighborhoodFormPage_GeneralFieldset_CodeField_Label" xml:space="preserve">
+    <value>Код</value>
+  </data>
+  <data name="General_NeighborhoodFormPage_GeneralFieldset_CodeField_InvalidLength" xml:space="preserve">
+    <value>Макс. длина: 200</value>
+  </data>
+
+  <data name="Inventory_ProductSummaryPage_Title" xml:space="preserve">
+    <value>Продукты</value>
+  </data>
+  <data name="Inventory_ProductSummaryPage_NameColumn_Title" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="Inventory_ProductSummaryPage_CodeColumn_Title" xml:space="preserve">
+    <value>Код</value>
+  </data>
+  <data name="Inventory_ProductSummaryPage_MinimumQuantityColumn_Title" xml:space="preserve">
+    <value>Мин. запас</value>
+  </data>
+
+  <data name="Inventory_ProductFormPage_Title" xml:space="preserve">
+    <value>Продукт</value>
+  </data>
+  <data name="Inventory_ProductFormPage_GeneralFieldset_Title" xml:space="preserve">
+    <value>Общие</value>
+  </data>
+  <data name="Inventory_ProductFormPage_GeneralFieldset_IdField_Text" xml:space="preserve">
+    <value>Id: {0}</value>
+  </data>
+  <data name="Inventory_ProductFormPage_GeneralFieldset_NameField_Label" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="Inventory_ProductFormPage_GeneralFieldset_NameField_Required" xml:space="preserve">
+    <value>Введите название.</value>
+  </data>
+  <data name="Inventory_ProductFormPage_GeneralFieldset_NameField_InvalidLength" xml:space="preserve">
+    <value>Название должно содержать не более 200 символов.</value>
+  </data>
+  <data name="Inventory_ProductFormPage_GeneralFieldset_CodeField_Label" xml:space="preserve">
+    <value>Код</value>
+  </data>
+  <data name="Inventory_ProductFormPage_GeneralFieldset_CodeField_InvalidLength" xml:space="preserve">
+    <value>Код должен содержать не более 200 символов.</value>
+  </data>
+  <data name="Inventory_ProductFormPage_GeneralFieldset_MinimumQuantityField_Label" xml:space="preserve">
+    <value>Мин. запас</value>
+  </data>
+  <data name="Inventory_ProductFormPage_GeneralFieldset_MinimumQuantityField_InvalidValue" xml:space="preserve">
+    <value>Минимальный запас должен быть больше или равен нулю.</value>
+  </data>
+
+  <data name="Inventory_ProductSummaryDropDownDataGridControl_NameColumn_Title" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="Inventory_ProductSummaryDropDownDataGridControl_CodeColumn_Title" xml:space="preserve">
+    <value>Код</value>
+  </data>
+
+  <data name="Inventory_StockMovementSummaryPage_Title" xml:space="preserve">
+    <value>Движения запасов</value>
+  </data>
+  <data name="Inventory_StockMovementSummaryPage_FilterContent_ProductField_Label" xml:space="preserve">
+    <value>Продукт</value>
+  </data>
+  <data name="Inventory_StockMovementSummaryPage_ProductColumn_Title" xml:space="preserve">
+    <value>Продукт</value>
+  </data>
+  <data name="Inventory_StockMovementSummaryPage_QuantityColumn_Title" xml:space="preserve">
+    <value>Количество</value>
+  </data>
+  <data name="Inventory_StockMovementSummaryPage_MovementDateColumn_Title" xml:space="preserve">
+    <value>Дата движения</value>
+  </data>
+  <data name="Inventory_StockMovementSummaryPage_IsOutboundColumn_Title" xml:space="preserve">
+    <value>Направление</value>
+  </data>
+  <data name="Inventory_StockMovementSummaryPage_IsOutboundColumn_Outbound_Text" xml:space="preserve">
+    <value>Расход</value>
+  </data>
+  <data name="Inventory_StockMovementSummaryPage_IsOutboundColumn_Inbound_Text" xml:space="preserve">
+    <value>Приход</value>
+  </data>
+
+  <data name="Inventory_StockMovementFormPage_Title" xml:space="preserve">
+    <value>Движение запасов</value>
+  </data>
+  <data name="Inventory_StockMovementFormPage_GeneralFieldset_Title" xml:space="preserve">
+    <value>Общие</value>
+  </data>
+  <data name="Inventory_StockMovementFormPage_GeneralFieldset_IdField_Text" xml:space="preserve">
+    <value>Id: {0}</value>
+  </data>
+  <data name="Inventory_StockMovementFormPage_GeneralFieldset_ProductField_Label" xml:space="preserve">
+    <value>Продукт</value>
+  </data>
+  <data name="Inventory_StockMovementFormPage_GeneralFieldset_ProductField_Required" xml:space="preserve">
+    <value>Выберите продукт.</value>
+  </data>
+  <data name="Inventory_StockMovementFormPage_GeneralFieldset_QuantityField_Label" xml:space="preserve">
+    <value>Количество</value>
+  </data>
+  <data name="Inventory_StockMovementFormPage_GeneralFieldset_QuantityField_InvalidValue" xml:space="preserve">
+    <value>Количество должно быть больше нуля.</value>
+  </data>
+  <data name="Inventory_StockMovementFormPage_GeneralFieldset_MovementDateField_Label" xml:space="preserve">
+    <value>Дата движения</value>
+  </data>
+  <data name="Inventory_StockMovementFormPage_GeneralFieldset_MovementDateField_Required" xml:space="preserve">
+    <value>Выберите дату движения.</value>
+  </data>
+  <data name="Inventory_StockMovementFormPage_GeneralFieldset_IsOutboundField_Label" xml:space="preserve">
+    <value>Является расходом</value>
+  </data>
+
+  <data name="Inventory_LowStockEmail_Subject" xml:space="preserve">
+    <value>Оповещение о низком запасе</value>
+  </data>
+  <data name="Inventory_LowStockEmail_Intro" xml:space="preserve">
+    <value>Следующие продукты находятся ниже минимального запаса:</value>
+  </data>
+  <data name="Inventory_LowStockEmail_ItemFormat" xml:space="preserve">
+    <value>{0}: остаток {1}, минимум {2}</value>
+  </data>
+  <data name="Inventory_LowStockEmail_Closing" xml:space="preserve">
+    <value>Пожалуйста, пополните их как можно скорее.</value>
+  </data>
+</root>
