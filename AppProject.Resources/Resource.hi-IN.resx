@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="accessmodifier">
+    <value>public</value>
+  </resheader>
+
+  <!--Sample-->
+  <data name="Sample_Message_Text" xml:space="preserve">
+    <value>नमूना</value>
+  </data>
+  <data name="SampleEmailTemplate_Introduction_Message" xml:space="preserve">
+    <value>नमस्ते, {0}!</value>
+  </data>
+  <data name="SampleEmailTemplate_Body_Message" xml:space="preserve">
+    <value>यह आपके लिए एक नमूना संदेश है।</value>
+  </data>
+  <data name="SampleEmailTemplate_Date_Message" xml:space="preserve">
+    <value>भेजने की तारीख: {0}</value>
+  </data>
+
+  <!--Validations-->
+  <data name="General_Country_DuplicateName" xml:space="preserve">
+    <value>यह देश का नाम पहले से मौजूद है।</value>
+  </data>
+  <data name="General_State_DuplicateName" xml:space="preserve">
+    <value>इस देश के लिए यह राज्य का नाम पहले से मौजूद है।</value>
+  </data>
+  <data name="General_City_DuplicateName" xml:space="preserve">
+    <value>इस राज्य के लिए यह शहर का नाम पहले से मौजूद है।</value>
+  </data>
+  <data name="General_City_Neighborhood_DuplicateName" xml:space="preserve">
+    <value>इस शहर के लिए यह मोहल्ले का नाम पहले से मौजूद है।</value>
+  </data>
+  <data name="Inventory_Product_DuplicateName" xml:space="preserve">
+    <value>इसी नाम का एक उत्पाद पहले से मौजूद है।</value>
+  </data>
+  <data name="Inventory_Product_DuplicateCode" xml:space="preserve">
+    <value>इसी कोड का एक उत्पाद पहले से मौजूद है।</value>
+  </data>
+  <data name="Inventory_Product_ContainsStockMovements" xml:space="preserve">
+    <value>उत्पाद में स्टॉक मूवमेंट हैं और इसे हटाया नहीं जा सकता।</value>
+  </data>
+  <data name="Inventory_StockMovement_InvalidQuantity" xml:space="preserve">
+    <value>मात्रा शून्य से अधिक होनी चाहिए।</value>
+  </data>
+  <data name="Inventory_StockMovement_ProductNotFound" xml:space="preserve">
+    <value>उत्पाद नहीं मिला।</value>
+  </data>
+  <data name="Inventory_StockMovement_InsufficientStock" xml:space="preserve">
+    <value>इस मूवमेंट के लिए पर्याप्त स्टॉक नहीं है।</value>
+  </data>
+
+  <!--Frontend-->
+  <data name="Footer_Text" xml:space="preserve">
+    <value>कॉपीराइट © आपकी कंपनी का नाम। सर्वाधिकार सुरक्षित।</value>
+  </data>
+  <data name="Home_Title" xml:space="preserve">
+    <value>होम</value>
+  </data>
+  <data name="Home_Message" xml:space="preserve">
+    <value>आपके नए ऐप में आपका स्वागत है!</value>
+  </data>
+  <data name="NotAuthorized_Title" xml:space="preserve">
+    <value>अनधिकृत</value>
+  </data>
+  <data name="NotAuthorized_Message" xml:space="preserve">
+    <value>क्षमा करें, आप लॉग इन नहीं हैं।</value>
+  </data>
+  <data name="NotFound_Title" xml:space="preserve">
+    <value>नहीं मिला</value>
+  </data>
+  <data name="NotFound_Message" xml:space="preserve">
+    <value>क्षमा करें, इस पते पर कुछ नहीं है।</value>
+  </data>
+
+  <!--Frontend Login-->
+  <data name="Login_Button_Text" xml:space="preserve">
+    <value>लॉग इन</value>
+  </data>
+  <data name="Logout_Button_Text" xml:space="preserve">
+    <value>लॉग आउट</value>
+  </data>
+
+  <!--Frontend Default Dialogs-->
+  <data name="Dialog_Error_Title" xml:space="preserve">
+    <value>त्रुटि</value>
+  </data>
+  <data name="Dialog_Error_OkButton_Text" xml:space="preserve">
+    <value>ठीक है</value>
+  </data>
+  <data name="Dialog_Info_Title" xml:space="preserve">
+    <value>जानकारी</value>
+  </data>
+  <data name="Dialog_Info_OkButton_Text" xml:space="preserve">
+    <value>ठीक है</value>
+  </data>
+  <data name="Dialog_Confirm_Title" xml:space="preserve">
+    <value>पुष्टि</value>
+  </data>
+  <data name="Dialog_Confirm_YesButton_Text" xml:space="preserve">
+    <value>हाँ</value>
+  </data>
+  <data name="Dialog_Confirm_NoButton_Text" xml:space="preserve">
+    <value>नहीं</value>
+  </data>
+  <data name="Dialog_Confirm_Delete_Message" xml:space="preserve">
+    <value>क्या आप वाकई हटाना चाहते हैं?</value>
+  </data>
+  <data name="Dialog_Busy_Message" xml:space="preserve">
+    <value>कृपया प्रतीक्षा करें...</value>
+  </data>
+
+  <!--Frontend Default Exceptions-->
+  <data name="Exception_AdditionalInfo_Message" xml:space="preserve">
+    <value>अतिरिक्त विवरण: {0}</value>
+  </data>
+  <data name="Exception_UnhandledException_Message" xml:space="preserve">
+    <value>अनहैंडल्ड अपवाद।</value>
+  </data>
+
+  <!--Frontend DataGridControl-->
+  <data name="DataGridControl_NewButton_Text" xml:space="preserve">
+    <value>नया</value>
+  </data>
+  <data name="DataGridControl_AddButton_Text" xml:space="preserve">
+    <value>जोड़ें</value>
+  </data>
+  <data name="DataGridControl_EditButton_Text" xml:space="preserve">
+    <value>संपादित करें</value>
+  </data>
+  <data name="DataGridControl_OpenButton_Text" xml:space="preserve">
+    <value>खोलें</value>
+  </data>
+  <data name="DataGridControl_DeleteButton_Text" xml:space="preserve">
+    <value>हटाएं</value>
+  </data>
+
+  <!--Frontend SearchControl and SearchPage-->
+  <data name="SearchControl_SearchField_Label" xml:space="preserve">
+    <value>खोजें</value>
+  </data>
+  <data name="SearchControl_SearchButton_Text" xml:space="preserve">
+    <value>खोजें</value>
+  </data>
+  <data name="SearchControl_TakeField_Label" xml:space="preserve">
+    <value>रिकॉर्ड की संख्या</value>
+  </data>
+  <data name="SearchControl_TakeField_Info_Message" xml:space="preserve">
+    <value>केवल {0} परिणाम दिखाए गए। अधिक परिणाम देखने के लिए, रिकॉर्ड की संख्या फ़ील्ड बदलें।</value>
+  </data>
+  <data name="SearchControl_AdvancedFiltersButton_Text" xml:space="preserve">
+    <value>उन्नत फ़िल्टर</value>
+  </data>
+
+  <!--Frontend ModelFormControl-->
+  <data name="ModelFormControl_SaveButton_Text" xml:space="preserve">
+    <value>सहेजें</value>
+  </data>
+  <data name="ModelFormControl_ExecuteButton_Text" xml:space="preserve">
+    <value>निष्पादित करें</value>
+  </data>
+  <data name="ModelFormControl_CancelButton_Text" xml:space="preserve">
+    <value>रद्द करें</value>
+  </data>
+  <data name="ModelFormControl_CloseButton_Text" xml:space="preserve">
+    <value>बंद करें</value>
+  </data>
+
+  <!--Frontend Radzen-->
+  <data name="RadzenFieldset_Collapse_Title" xml:space="preserve">
+    <value>संकुचित करें</value>
+  </data>
+  <data name="RadzenFieldset_Expand_Title" xml:space="preserve">
+    <value>विस्तृत करें</value>
+  </data>
+  <data name="RadzenDataGrid_Empty_Text" xml:space="preserve">
+    <value>प्रदर्शित करने के लिए कोई रिकॉर्ड नहीं।</value>
+  </data>
+  <data name="RadzenDataGrid_GroupPanel_Text" xml:space="preserve">
+    <value>किसी कॉलम हेडर को यहाँ खींचें और उस कॉलम के अनुसार समूहित करने के लिए छोड़ें</value>
+  </data>
+  <data name="RadzenDataGrid_PageSize_Text" xml:space="preserve">
+    <value>प्रति पृष्ठ आइटम</value>
+  </data>
+  <data name="RadzenDataGrid_Filter_Text" xml:space="preserve">
+    <value>फ़िल्टर</value>
+  </data>
+  <data name="RadzenDataGrid_Equals_Text" xml:space="preserve">
+    <value>बराबर है</value>
+  </data>
+  <data name="RadzenDataGrid_NotEquals_Text" xml:space="preserve">
+    <value>बराबर नहीं है</value>
+  </data>
+  <data name="RadzenDataGrid_Contains_Text" xml:space="preserve">
+    <value>शामिल है</value>
+  </data>
+  <data name="RadzenDataGrid_StartsWith_Text" xml:space="preserve">
+    <value>से शुरू होता है</value>
+  </data>
+  <data name="RadzenDataGrid_EndsWith_Text" xml:space="preserve">
+    <value>पर समाप्त होता है</value>
+  </data>
+  <data name="RadzenDataGrid_DoesNotContain_Text" xml:space="preserve">
+    <value>शामिल नहीं है</value>
+  </data>
+  <data name="RadzenDataGrid_IsNull_Text" xml:space="preserve">
+    <value>शून्य (null) है</value>
+  </data>
+  <data name="RadzenDataGrid_IsEmpty_Text" xml:space="preserve">
+    <value>खाली है</value>
+  </data>
+  <data name="RadzenDataGrid_IsNotNull_Text" xml:space="preserve">
+    <value>शून्य (null) नहीं है</value>
+  </data>
+  <data name="RadzenDataGrid_IsNotEmpty_Text" xml:space="preserve">
+    <value>खाली नहीं है</value>
+  </data>
+  <data name="RadzenDataGrid_ClearFilter_Text" xml:space="preserve">
+    <value>फ़िल्टर साफ़ करें</value>
+  </data>
+  <data name="RadzenDataGrid_ApplyFilter_Text" xml:space="preserve">
+    <value>फ़िल्टर लागू करें</value>
+  </data>
+  <data name="RadzenDataGrid_AndOperator_Text" xml:space="preserve">
+    <value>और</value>
+  </data>
+  <data name="RadzenDataGrid_OrOperator_Text" xml:space="preserve">
+    <value>या</value>
+  </data>
+  <data name="RadzenDataGrid_NextPage_Title" xml:space="preserve">
+    <value>अगला पृष्ठ</value>
+  </data>
+  <data name="RadzenDataGrid_LastPage_Title" xml:space="preserve">
+    <value>अंतिम पृष्ठ</value>
+  </data>
+  <data name="RadzenDataGrid_PreviousPage_Title" xml:space="preserve">
+    <value>पिछला पृष्ठ</value>
+  </data>
+  <data name="RadzenDataGrid_FirstPage_Title" xml:space="preserve">
+    <value>पहला पृष्ठ</value>
+  </data>
+  <data name="RadzenDataGrid_Page_TitleFormat" xml:space="preserve">
+    <value>पृष्ठ {{0}}</value>
+  </data>
+  <data name="RadzenDropDownDataGrid_EmptyText" xml:space="preserve">
+    <value>कोई रिकॉर्ड नहीं मिला।</value>
+  </data>
+  <data name="RadzenDropDownDataGrid_SearchTextPlaceholder" xml:space="preserve">
+    <value>खोजें...</value>
+  </data>
+
+  <!--Frontend Menus-->
+  <data name="Menu_Home_Item_Text" xml:space="preserve">
+    <value>होम</value>
+  </data>
+  <data name="Menu_Countries_Item_Text" xml:space="preserve">
+    <value>देश</value>
+  </data>
+  <data name="Menu_States_Item_Text" xml:space="preserve">
+    <value>राज्य</value>
+  </data>
+  <data name="Menu_Cities_Item_Text" xml:space="preserve">
+    <value>शहर</value>
+  </data>
+  <data name="Menu_Products_Item_Text" xml:space="preserve">
+    <value>उत्पाद</value>
+  </data>
+  <data name="Menu_StockMovements_Item_Text" xml:space="preserve">
+    <value>स्टॉक मूवमेंट</value>
+  </data>
+
+  <!--Frontend General/CountrySummaryPage-->
+  <data name="General_CountrySummaryPage_Title" xml:space="preserve">
+    <value>देश</value>
+  </data>
+  <data name="General_CountrySummaryPage_NameColumn_Title" xml:space="preserve">
+    <value>नाम</value>
+  </data>
+
+  <!--Frontend General/CountryFormPage-->
+  <data name="General_CountryFormPage_Title" xml:space="preserve">
+    <value>देश</value>
+  </data>
+  <data name="General_CountryFormPage_GeneralFieldset_Title" xml:space="preserve">
+    <value>सामान्य</value>
+  </data>
+  <data name="General_CountryFormPage_GeneralFieldset_IdField_Text" xml:space="preserve">
+    <value>आईडी: {0}</value>
+  </data>
+  <data name="General_CountryFormPage_GeneralFieldset_NameField_Label" xml:space="preserve">
+    <value>नाम</value>
+  </data>
+  <data name="General_CountryFormPage_GeneralFieldset_NameField_Required" xml:space="preserve">
+    <value>नाम आवश्यक है</value>
+  </data>
+  <data name="General_CountryFormPage_GeneralFieldset_NameField_InvalidLength" xml:space="preserve">
+    <value>अधिकतम लंबाई: 200</value>
+  </data>
+  <data name="General_CountryFormPage_GeneralFieldset_CodeField_Label" xml:space="preserve">
+    <value>कोड</value>
+  </data>
+  <data name="General_CountryFormPage_GeneralFieldset_CodeField_InvalidLength" xml:space="preserve">
+    <value>अधिकतम लंबाई: 200</value>
+  </data>
+
+  <!--Frontend General/CountrySummaryDropDownDataGridControl-->
+  <data name="General_CountrySummaryDropDownDataGridControl_NameColumn_Title" xml:space="preserve">
+    <value>नाम</value>
+  </data>
+
+  <!--Frontend General/StateSummaryPage-->
+  <data name="General_StateSummaryPage_Title" xml:space="preserve">
+    <value>राज्य</value>
+  </data>
+  <data name="General_StateSummaryPage_FilterContent_CountryField_Label" xml:space="preserve">
+    <value>देश</value>
+  </data>
+  <data name="General_StateSummaryPage_NameColumn_Title" xml:space="preserve">
+    <value>नाम</value>
+  </data>
+  <data name="General_StateSummaryPage_CountryNameColumn_Title" xml:space="preserve">
+    <value>देश</value>
+  </data>
+
+  <!--Frontend General/StateFormPage-->
+  <data name="General_StateFormPage_Title" xml:space="preserve">
+    <value>राज्य</value>
+  </data>
+  <data name="General_StateFormPage_GeneralFieldset_Title" xml:space="preserve">
+    <value>सामान्य</value>
+  </data>
+  <data name="General_StateFormPage_GeneralFieldset_IdField_Text" xml:space="preserve">
+    <value>आईडी: {0}</value>
+  </data>
+  <data name="General_StateFormPage_GeneralFieldset_NameField_Label" xml:space="preserve">
+    <value>नाम</value>
+  </data>
+  <data name="General_StateFormPage_GeneralFieldset_NameField_Required" xml:space="preserve">
+    <value>नाम आवश्यक है</value>
+  </data>
+  <data name="General_StateFormPage_GeneralFieldset_NameField_InvalidLength" xml:space="preserve">
+    <value>अधिकतम लंबाई: 200</value>
+  </data>
+  <data name="General_StateFormPage_GeneralFieldset_CodeField_Label" xml:space="preserve">
+    <value>कोड</value>
+  </data>
+  <data name="General_StateFormPage_GeneralFieldset_CodeField_InvalidLength" xml:space="preserve">
+    <value>अधिकतम लंबाई: 200</value>
+  </data>
+  <data name="General_StateFormPage_GeneralFieldset_CountryField_Label" xml:space="preserve">
+    <value>देश</value>
+  </data>
+  <data name="General_StateFormPage_GeneralFieldset_CountryField_Required" xml:space="preserve">
+    <value>देश आवश्यक है</value>
+  </data>
+
+  <!--Frontend General/StateSummaryDropDownDataGridControl-->
+  <data name="General_StateSummaryDropDownDataGridControl_NameColumn_Title" xml:space="preserve">
+    <value>नाम</value>
+  </data>
+  <data name="General_StateSummaryDropDownDataGridControl_CountryNameColumn_Title" xml:space="preserve">
+    <value>देश</value>
+  </data>
+
+  <!--Frontend General/CitySummaryPage-->
+  <data name="General_CitySummaryPage_Title" xml:space="preserve">
+    <value>शहर</value>
+  </data>
+  <data name="General_CitySummaryPage_FilterContent_StateField_Label" xml:space="preserve">
+    <value>राज्य</value>
+  </data>
+  <data name="General_CitySummaryPage_NameColumn_Title" xml:space="preserve">
+    <value>नाम</value>
+  </data>
+  <data name="General_CitySummaryPage_StateNameColumn_Title" xml:space="preserve">
+    <value>राज्य</value>
+  </data>
+  <data name="General_CitySummaryPage_CountryNameColumn_Title" xml:space="preserve">
+    <value>देश</value>
+  </data>
+
+  <!--Frontend General/CityFormPage-->
+  <data name="General_CityFormPage_Title" xml:space="preserve">
+    <value>शहर</value>
+  </data>
+  <data name="General_CityFormPage_GeneralFieldset_Title" xml:space="preserve">
+    <value>सामान्य</value>
+  </data>
+  <data name="General_CityFormPage_GeneralFieldset_IdField_Text" xml:space="preserve">
+    <value>आईडी: {0}</value>
+  </data>
+  <data name="General_CityFormPage_GeneralFieldset_NameField_Label" xml:space="preserve">
+    <value>नाम</value>
+  </data>
+  <data name="General_CityFormPage_GeneralFieldset_NameField_Required" xml:space="preserve">
+    <value>नाम आवश्यक है</value>
+  </data>
+  <data name="General_CityFormPage_GeneralFieldset_NameField_InvalidLength" xml:space="preserve">
+    <value>अधिकतम लंबाई: 200</value>
+  </data>
+  <data name="General_CityFormPage_GeneralFieldset_CodeField_Label" xml:space="preserve">
+    <value>कोड</value>
+  </data>
+  <data name="General_CityFormPage_GeneralFieldset_CodeField_InvalidLength" xml:space="preserve">
+    <value>अधिकतम लंबाई: 200</value>
+  </data>
+  <data name="General_CityFormPage_GeneralFieldset_StateField_Label" xml:space="preserve">
+    <value>राज्य</value>
+  </data>
+  <data name="General_CityFormPage_GeneralFieldset_StateField_Required" xml:space="preserve">
+    <value>राज्य आवश्यक है</value>
+  </data>
+  <data name="General_CityFormPage_NeighborhoodFieldset_Title" xml:space="preserve">
+    <value>मोहल्ले</value>
+  </data>
+  <data name="General_CityFormPage_NeighborhoodFieldset_NameColumn_Title" xml:space="preserve">
+    <value>नाम</value>
+  </data>
+
+  <!--Frontend General/NeighborhoodFormPage-->
+  <data name="General_NeighborhoodFormPage_Title" xml:space="preserve">
+    <value>मोहल्ला</value>
+  </data>
+  <data name="General_NeighborhoodFormPage_GeneralFieldset_Title" xml:space="preserve">
+    <value>सामान्य</value>
+  </data>
+  <data name="General_NeighborhoodFormPage_GeneralFieldset_IdField_Text" xml:space="preserve">
+    <value>आईडी: {0}</value>
+  </data>
+  <data name="General_NeighborhoodFormPage_GeneralFieldset_NameField_Label" xml:space="preserve">
+    <value>नाम</value>
+  </data>
+  <data name="General_NeighborhoodFormPage_GeneralFieldset_NameField_Required" xml:space="preserve">
+    <value>नाम आवश्यक है</value>
+  </data>
+  <data name="General_NeighborhoodFormPage_GeneralFieldset_NameField_InvalidLength" xml:space="preserve">
+    <value>अधिकतम लंबाई: 200</value>
+  </data>
+  <data name="General_NeighborhoodFormPage_GeneralFieldset_CodeField_Label" xml:space="preserve">
+    <value>कोड</value>
+  </data>
+  <data name="General_NeighborhoodFormPage_GeneralFieldset_CodeField_InvalidLength" xml:space="preserve">
+    <value>अधिकतम लंबाई: 200</value>
+  </data>
+
+  <!--Frontend Inventory/ProductSummaryPage-->
+  <data name="Inventory_ProductSummaryPage_Title" xml:space="preserve">
+    <value>उत्पाद</value>
+  </data>
+  <data name="Inventory_ProductSummaryPage_NameColumn_Title" xml:space="preserve">
+    <value>नाम</value>
+  </data>
+  <data name="Inventory_ProductSummaryPage_CodeColumn_Title" xml:space="preserve">
+    <value>कोड</value>
+  </data>
+  <data name="Inventory_ProductSummaryPage_MinimumQuantityColumn_Title" xml:space="preserve">
+    <value>न्यूनतम स्टॉक</value>
+  </data>
+
+  <!--Frontend Inventory/ProductFormPage-->
+  <data name="Inventory_ProductFormPage_Title" xml:space="preserve">
+    <value>उत्पाद</value>
+  </data>
+  <data name="Inventory_ProductFormPage_GeneralFieldset_Title" xml:space="preserve">
+    <value>सामान्य</value>
+  </data>
+  <data name="Inventory_ProductFormPage_GeneralFieldset_IdField_Text" xml:space="preserve">
+    <value>आईडी: {0}</value>
+  </data>
+  <data name="Inventory_ProductFormPage_GeneralFieldset_NameField_Label" xml:space="preserve">
+    <value>नाम</value>
+  </data>
+  <data name="Inventory_ProductFormPage_GeneralFieldset_NameField_Required" xml:space="preserve">
+    <value>नाम आवश्यक है।</value>
+  </data>
+  <data name="Inventory_ProductFormPage_GeneralFieldset_NameField_InvalidLength" xml:space="preserve">
+    <value>नाम में अधिकतम 200 अक्षर हो सकते हैं।</value>
+  </data>
+  <data name="Inventory_ProductFormPage_GeneralFieldset_CodeField_Label" xml:space="preserve">
+    <value>कोड</value>
+  </data>
+  <data name="Inventory_ProductFormPage_GeneralFieldset_CodeField_InvalidLength" xml:space="preserve">
+    <value>कोड में अधिकतम 200 अक्षर हो सकते हैं।</value>
+  </data>
+  <data name="Inventory_ProductFormPage_GeneralFieldset_MinimumQuantityField_Label" xml:space="preserve">
+    <value>न्यूनतम स्टॉक</value>
+  </data>
+  <data name="Inventory_ProductFormPage_GeneralFieldset_MinimumQuantityField_InvalidValue" xml:space="preserve">
+    <value>न्यूनतम स्टॉक शून्य या उससे अधिक होना चाहिए।</value>
+  </data>
+
+  <!--Frontend Inventory/ProductSummaryDropDownDataGridControl-->
+  <data name="Inventory_ProductSummaryDropDownDataGridControl_NameColumn_Title" xml:space="preserve">
+    <value>नाम</value>
+  </data>
+  <data name="Inventory_ProductSummaryDropDownDataGridControl_CodeColumn_Title" xml:space="preserve">
+    <value>कोड</value>
+  </data>
+
+  <!--Frontend Inventory/StockMovementSummaryPage-->
+  <data name="Inventory_StockMovementSummaryPage_Title" xml:space="preserve">
+    <value>स्टॉक मूवमेंट</value>
+  </data>
+  <data name="Inventory_StockMovementSummaryPage_FilterContent_ProductField_Label" xml:space="preserve">
+    <value>उत्पाद</value>
+  </data>
+  <data name="Inventory_StockMovementSummaryPage_ProductColumn_Title" xml:space="preserve">
+    <value>उत्पाद</value>
+  </data>
+  <data name="Inventory_StockMovementSummaryPage_QuantityColumn_Title" xml:space="preserve">
+    <value>मात्रा</value>
+  </data>
+  <data name="Inventory_StockMovementSummaryPage_MovementDateColumn_Title" xml:space="preserve">
+    <value>मूवमेंट की तारीख</value>
+  </data>
+  <data name="Inventory_StockMovementSummaryPage_IsOutboundColumn_Title" xml:space="preserve">
+    <value>दिशा</value>
+  </data>
+  <data name="Inventory_StockMovementSummaryPage_IsOutboundColumn_Outbound_Text" xml:space="preserve">
+    <value>निर्गम</value>
+  </data>
+  <data name="Inventory_StockMovementSummaryPage_IsOutboundColumn_Inbound_Text" xml:space="preserve">
+    <value>आगम</value>
+  </data>
+
+  <!--Frontend Inventory/StockMovementFormPage-->
+  <data name="Inventory_StockMovementFormPage_Title" xml:space="preserve">
+    <value>स्टॉक मूवमेंट</value>
+  </data>
+  <data name="Inventory_StockMovementFormPage_GeneralFieldset_Title" xml:space="preserve">
+    <value>सामान्य</value>
+  </data>
+  <data name="Inventory_StockMovementFormPage_GeneralFieldset_IdField_Text" xml:space="preserve">
+    <value>आईडी: {0}</value>
+  </data>
+  <data name="Inventory_StockMovementFormPage_GeneralFieldset_ProductField_Label" xml:space="preserve">
+    <value>उत्पाद</value>
+  </data>
+  <data name="Inventory_StockMovementFormPage_GeneralFieldset_ProductField_Required" xml:space="preserve">
+    <value>कोई उत्पाद चुनें।</value>
+  </data>
+  <data name="Inventory_StockMovementFormPage_GeneralFieldset_QuantityField_Label" xml:space="preserve">
+    <value>मात्रा</value>
+  </data>
+  <data name="Inventory_StockMovementFormPage_GeneralFieldset_QuantityField_InvalidValue" xml:space="preserve">
+    <value>मात्रा शून्य से अधिक होनी चाहिए।</value>
+  </data>
+  <data name="Inventory_StockMovementFormPage_GeneralFieldset_MovementDateField_Label" xml:space="preserve">
+    <value>मूवमेंट की तारीख</value>
+  </data>
+  <data name="Inventory_StockMovementFormPage_GeneralFieldset_MovementDateField_Required" xml:space="preserve">
+    <value>मूवमेंट की तारीख चुनें।</value>
+  </data>
+  <data name="Inventory_StockMovementFormPage_GeneralFieldset_IsOutboundField_Label" xml:space="preserve">
+    <value>निर्गम मूवमेंट</value>
+  </data>
+
+  <!--Frontend Inventory/LowStockEmail-->
+  <data name="Inventory_LowStockEmail_Subject" xml:space="preserve">
+    <value>कम स्टॉक की चेतावनी</value>
+  </data>
+  <data name="Inventory_LowStockEmail_Intro" xml:space="preserve">
+    <value>निम्नलिखित उत्पाद न्यूनतम स्टॉक स्तर से नीचे हैं:</value>
+  </data>
+  <data name="Inventory_LowStockEmail_ItemFormat" xml:space="preserve">
+    <value>{0}: शेष {1}, न्यूनतम {2}</value>
+  </data>
+  <data name="Inventory_LowStockEmail_Closing" xml:space="preserve">
+    <value>कृपया जल्द से जल्द स्टॉक फिर से भरें।</value>
+  </data>
+</root>
